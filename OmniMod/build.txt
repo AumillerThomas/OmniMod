@@ -1,0 +1,3 @@
+displayName = OmniMod
+author = Aumi
+version = 0.1
