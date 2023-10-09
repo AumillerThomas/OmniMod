@@ -2,6 +2,7 @@ using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using OmniMod.Items.Projectiles;
 
 namespace OmniMod.Items.Wapons;
 
@@ -27,7 +28,7 @@ public class StoepsisYoYo : ModItem {
 
 			Item.damage = 40; // The amount of damage the item does to an enemy or player.
 			Item.DamageType = DamageClass.MeleeNoSpeed; // The type of damage the weapon does. MeleeNoSpeed means the item will not scale with attack speed.
-			Item.knockBack = 8.5f; // The amount of knockback the item inflicts.
+			Item.knockBack = 16.5f; // The amount of knockback the item inflicts.
 			Item.crit = 15; // The percent chance for the weapon to deal a critical strike. Defaults to 4.
 			Item.channel = true; // Set to true for items that require the attack button to be held out (e.g. yoyos and magic missile weapons)
 			Item.rare = 1; // The item's rarity. This changes the color of the item's name.
