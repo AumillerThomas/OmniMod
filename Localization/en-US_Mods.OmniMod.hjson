@@ -5,4 +5,16 @@ Items: {
 		DisplayName: Omni Sword
 		Tooltip: ""
 	}
-} 
+
+	StoepsisYoYo: {
+		Tooltip: "Ah ja so geil"
+		DisplayName: Stoepsis Yo Yo
+	}
+
+	ThomysBrust: {
+		Tooltip: "Spitz wie immer"
+		DisplayName: Thomys Brust
+	}
+}
+
+Projectiles.StoepsisYoYoProjectile.DisplayName: Stoepsis Yo Yo Projectile

@@ -7,7 +7,8 @@ namespace OmniMod.Items.Armor{
     [AutoloadEquip(EquipType.Body)]
     public class ThomysBrust : ModItem {
         public static int MaxManaIncrease = 60;
-		public static int MaxMinionIncrease = 4;
+		public static int MaxMinionIncrease = 5;
+		public static int MaxLifeIncrease = 40;
 
 		public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs(MaxManaIncrease, MaxMinionIncrease);
 
@@ -15,13 +16,15 @@ namespace OmniMod.Items.Armor{
 			Item.width = 18; // Width of the item
 			Item.height = 18; // Height of the item
 			Item.value = Item.sellPrice(gold: 1); // How many coins the item is worth
-			Item.rare = ItemRarityID.Green; // The rarity of the item
-			Item.defense = 6; // The amount of defense the item will give when equipped
+			Item.rare = ItemRarityID.Orange; // The rarity of the item
+			Item.defense = 8; // The amount of defense the item will give when equipped
 		}
 
 		public override void UpdateEquip(Player player) {
 			player.buffImmune[BuffID.OnFire] = true; // Make the player immune to Fire
+			player.buffImmune[BuffID.Poisoned] = true; // Make player immune to fire
 			player.statManaMax2 += MaxManaIncrease; // Increase how many mana points the player can have by 20
+			player.statLifeMax2 += MaxLifeIncrease;
 			player.maxMinions += MaxMinionIncrease; // Increase how many minions the player can have by one
 		}
 
