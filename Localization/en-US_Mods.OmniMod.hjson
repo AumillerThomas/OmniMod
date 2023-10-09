@@ -7,12 +7,12 @@ Items: {
 	}
 
 	StoepsisYoYo: {
-		Tooltip: "Ah ja so geil"
+		Tooltip: Ah ja so geil
 		DisplayName: Stoepsis Yo Yo
 	}
 
 	ThomysBrust: {
-		Tooltip: "Spitz wie immer"
+		Tooltip: Spitz wie immer
 		DisplayName: Thomys Brust
 	}
 }
