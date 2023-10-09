@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OmniMod.Items
+namespace OmniMod.Items.Wapons
 {
 	public class OmniSword : ModItem
 	{
