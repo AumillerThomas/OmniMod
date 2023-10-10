@@ -7,7 +7,7 @@ using OmniMod.Items.Dusts;
 namespace OmniMod.Items.Tools{
     public class OmniPii : ModItem{
         public override void SetDefaults() {
-			Item.damage = 20;
+			Item.damage = 50;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 40;
 			Item.height = 40;
@@ -16,7 +16,7 @@ namespace OmniMod.Items.Tools{
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 6;
 			Item.value = Item.buyPrice(gold: 1); // Buy this item for one gold - change gold to any coin and change the value to any number <= 100
-			Item.rare = ItemRarityID.Green;
+			Item.rare = ItemRarityID.Orange;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
 
