@@ -1,7 +1,6 @@
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
-using Terraria.GameContent.UI;
 using Terraria.ModLoader;
 using OmniMod.Items.Dusts;
 
