@@ -17,7 +17,7 @@ namespace OmniMod.Items.Projectiles{
 
 			// YoyosMaximumRange is the maximum distance the yoyo sleep away from the player. 
 			// Vanilla values range from 130f (Wood) to 400f (Terrarian), and defaults to 200f.
-			ProjectileID.Sets.YoyosMaximumRange[Projectile.type] = 600f;
+			ProjectileID.Sets.YoyosMaximumRange[Projectile.type] = 900f;
 
 			// YoyosTopSpeed is top speed of the yoyo Projectile.
 			// Vanilla values range from 9f (Wood) to 17.5f (Terrarian), and defaults to 10f.

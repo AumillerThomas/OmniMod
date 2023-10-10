@@ -15,6 +15,12 @@ Items: {
 		Tooltip: Spitz wie immer
 		DisplayName: Thomys Brust
 	}
+
+	ThomysHelm: {
+		SetBonus: Mods.OmniMod.Items.ThomysHelm.SetBonus
+		DisplayName: Thomys Helm
+		Tooltip: ""
+	}
 }
 
 Projectiles.StoepsisYoYoProjectile.DisplayName: Stoepsis Yo Yo Projectile
