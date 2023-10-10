@@ -4,7 +4,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace OmniMod.Items.Armor{
-
+	[AutoloadEquip(EquipType.Head)]
     public class ThomysHelm : ModItem {
         public static readonly int AdditiveGenericDamageBonus = 20;
 
