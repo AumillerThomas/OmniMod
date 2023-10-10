@@ -21,6 +21,11 @@ Items: {
 		DisplayName: Thomys Helm
 		Tooltip: ""
 	}
+
+	ThomysHose: {
+		DisplayName: Thomys Hose
+		Tooltip: ""
+	}
 }
 
 Projectiles.StoepsisYoYoProjectile.DisplayName: Stoepsis Yo Yo Projectile

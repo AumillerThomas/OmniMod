@@ -2,7 +2,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-
+namespace OmniMod.Items.Armor{
+    [AutoloadEquip(EquipType.Legs)]
 public class ThomysHose : ModItem{
     public static readonly int MoveSpeedBonus = 5;
 
@@ -28,3 +29,4 @@ public class ThomysHose : ModItem{
 			recipe.Register();
 		}
 	}
+}
