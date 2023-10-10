@@ -26,6 +26,11 @@ Items: {
 		DisplayName: Thomys Hose
 		Tooltip: ""
 	}
+
+	OmniPii: {
+		DisplayName: Omni Pii
+		Tooltip: ""
+	}
 }
 
 Projectiles.StoepsisYoYoProjectile.DisplayName: Stoepsis Yo Yo Projectile
