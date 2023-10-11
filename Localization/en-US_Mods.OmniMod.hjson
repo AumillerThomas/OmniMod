@@ -33,4 +33,7 @@ Items: {
 	}
 }
 
-Projectiles.StoepsisYoYoProjectile.DisplayName: Stoepsis Yo Yo Projectile
+Projectiles: {
+	StoepsisYoYoProjectile.DisplayName: Stoepsis Yo Yo Projectile
+	OmniDrillProjectile.DisplayName: Omni Drill Projectile
+}
