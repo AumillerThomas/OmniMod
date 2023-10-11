@@ -8,6 +8,8 @@ namespace OmniMod.Items.Wapons{
 
     public class ShootingStar : ModItem{
 
+        int ProCount = 9; // gibt an wie viele Projectile Erzeugt werden.
+
         public override void SetDefaults() {
 			Item.width = 26;
 			Item.height = 42;
@@ -43,7 +45,7 @@ namespace OmniMod.Items.Wapons{
 				ceilingLimit = player.Center.Y - 200f;
 			}
 			// Loop these functions 3 times.
-			for (int i = 0; i < 3; i++) {
+			for (int i = 0; i < ProCount; i++) {
 				position = player.Center - new Vector2(Main.rand.NextFloat(401) * player.direction, 600f);
 				position.Y -= 100 * i;
 				Vector2 heading = target - position;
@@ -67,7 +69,7 @@ namespace OmniMod.Items.Wapons{
 
 		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
-            
+
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.DirtBlock, 10);
 			recipe.AddTile(TileID.WorkBenches);
