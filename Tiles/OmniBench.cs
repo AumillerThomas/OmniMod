@@ -6,7 +6,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace OmniMod.Items.Tiles
+namespace OmniMod.Tiles
 {
 	public class OmniBench : ModTile
 	{
@@ -20,7 +20,7 @@ namespace OmniMod.Items.Tiles
 			TileID.Sets.DisableSmartCursor[Type] = true;
 			TileID.Sets.IgnoredByNpcStepUp[Type] = true; // This line makes NPCs not try to step up this tile during their movement. Only use this for furniture with solid tops.
 
-			DustType = ModContent.DustType<Dusts.Sparkle>();
+			DustType = ModContent.DustType<Items.Dusts.Sparkle>();
 			AdjTiles = new int[] { TileID.WorkBenches };
 
 			// Placement
