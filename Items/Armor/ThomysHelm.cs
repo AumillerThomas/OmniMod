@@ -44,7 +44,7 @@ namespace OmniMod.Items.Armor{
 
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.DirtBlock, 6);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddTile<Tiles.OmniBench>();
 			recipe.Register();
 		}
 	}
