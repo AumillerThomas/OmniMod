@@ -46,9 +46,20 @@ Items: {
 		Tooltip: ""
 		DisplayName: Shooting Star
 	}
+
+	Bull3tYoYo: {
+		Tooltip: ""
+		DisplayName: Bull3t Yo Yo
+	}
+
+	OmniBench: {
+		Tooltip: ""
+		DisplayName: Omni Bench
+	}
 }
 
 Projectiles: {
 	StoepsisYoYoProjectile.DisplayName: Stoepsis Yo Yo Projectile
 	OmniDrillProjectile.DisplayName: Omni Drill Projectile
+	Bull3tYoYoProjectile.DisplayName: Bull3t Yo Yo Projectile
 }

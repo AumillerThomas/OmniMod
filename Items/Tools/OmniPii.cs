@@ -3,6 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using OmniMod.Items.Dusts;
+using OmniMod.Items.Tiles;
 
 namespace OmniMod.Items.Tools{
     public class OmniPii : ModItem{

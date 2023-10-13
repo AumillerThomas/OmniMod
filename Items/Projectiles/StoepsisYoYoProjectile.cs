@@ -45,8 +45,9 @@ namespace OmniMod.Items.Projectiles{
 		// Any AI method can be used for dust, spawning projectiles, etc specific to your yoyo.
 
 		public override void PostAI() {
-			if (Main.rand.NextBool(5)) {
-				Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<Sparkle>()); // Makes the projectile emit dust.
+			if (Main.rand.NextBool(2)) {
+				Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<Bubble>());
+				Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<StarOne>()); // Makes the projectile emit dust.
 			}
 		}
 	

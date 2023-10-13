@@ -3,6 +3,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using OmniMod.Items.Projectiles;
+using Microsoft.Xna.Framework;
+using OmniMod.Items.Dusts;
 
 namespace OmniMod.Items.Wapons;
 
@@ -61,6 +63,12 @@ public class StoepsisYoYo : ModItem {
 			return true;
 		}
 
+		public override void MeleeEffects(Player player, Rectangle hitbox) {
+			if (Main.rand.NextBool(10)) {
+				Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, ModContent.DustType<StarOne>());
+			}
+		}
+		
 		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
 

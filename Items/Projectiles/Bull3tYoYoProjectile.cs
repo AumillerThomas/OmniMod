@@ -46,7 +46,7 @@ namespace OmniMod.Items.Projectiles{
 
 		public override void PostAI() {
 			if (Main.rand.NextBool(5)) {
-				Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<Sparkle>()); // Makes the projectile emit dust.
+				Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<StarOne>()); // Makes the projectile emit dust.
 			}
 		}
 
