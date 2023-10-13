@@ -36,6 +36,16 @@ Items: {
 		DisplayName: Omni Drill
 		Tooltip: ""
 	}
+
+	OmniAxe: {
+		Tooltip: ""
+		DisplayName: Omni Axe
+	}
+
+	ShootingStar: {
+		Tooltip: ""
+		DisplayName: Shooting Star
+	}
 }
 
 Projectiles: {
