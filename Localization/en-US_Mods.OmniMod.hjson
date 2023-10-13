@@ -31,6 +31,11 @@ Items: {
 		DisplayName: Omni Pii
 		Tooltip: ""
 	}
+
+	OmniDrill: {
+		DisplayName: Omni Drill
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
