@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace OmniMod.Items.Consumable{
 
-    public class DefenseBuff : ModItem{
+    public class DefenseBuffPotion : ModItem{
 
         public override void SetStaticDefaults() {
 			Item.ResearchUnlockCount = 20;
@@ -34,7 +34,12 @@ namespace OmniMod.Items.Consumable{
 			Item.buffTime = 5400; // The amount of time the buff declared in Item.buffType will last in ticks. 5400 / 60 is 90, so this buff will last 90 seconds.
 		}
 
-
+		public override void AddRecipes() {
+			Recipe recipe = CreateRecipe();
+			recipe.AddIngredient(ItemID.DirtBlock, 6);
+			recipe.AddTile<Tiles.OmniBench>();
+			recipe.Register();
+		}
 
     }
 

@@ -56,10 +56,27 @@ Items: {
 		Tooltip: ""
 		DisplayName: Omni Bench
 	}
+
+	DefenseBuffPotion: {
+		Tooltip: ""
+		DisplayName: Defense Buff Potion
+	}
 }
 
 Projectiles: {
 	StoepsisYoYoProjectile.DisplayName: Stoepsis Yo Yo Projectile
 	OmniDrillProjectile.DisplayName: Omni Drill Projectile
 	Bull3tYoYoProjectile.DisplayName: Bull3t Yo Yo Projectile
+}
+
+Buffs: {
+	DefenseDebuff: {
+		Description: Mods.OmniMod.Buffs.DefenseDebuff.Description
+		DisplayName: Defense Debuff
+	}
+
+	DefenseBuff: {
+		Description: Mods.OmniMod.Buffs.DefenseBuff.Description
+		DisplayName: Defense Buff
+	}
 }
