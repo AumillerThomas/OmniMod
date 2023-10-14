@@ -8,25 +8,22 @@ namespace OmniMod.Buffs{
 
     public class DefenseBuff : ModBuff{
 
+		private float mSpeed = 1.95f;
+		private int lRegen = 10;
+		private int mBrath = 500;
+		private int brath = 900;
+       public static readonly int DefenseBonus = 50;
 
-        public const int DefenseReductionPercent = 25;
-		public static float DefenseMultiplier = 1 - DefenseReductionPercent / 100f;
-
-		public override void SetStaticDefaults() {
-			Main.pvpBuff[Type] = true; // This buff can be applied by other players in Pvp, so we need this to be true.
-
-			// Our BuffImmuneGlobalNPC class changes some buff immunity logic. NPCs immune to Ichor will automatically be immune to this buff.
-			BuffImmuneGlobalNPC.SetDefenseDebuffStaticDefaults(Type);
-		}
-
-		public override void Update(NPC npc, ref int buffIndex) {
-			npc.GetGlobalNPC<DamageModificationGlobalNPC>().exampleDefenseDebuff = true; 
-		}
+		public override LocalizedText Description => base.Description.WithFormatArgs(DefenseBonus);
 
 		public override void Update(Player player, ref int buffIndex) {
-			player.GetModPlayer<DamageModificationPlayer>().exampleDefenseDebuff = true;
-			player.statDefense *= DefenseMultiplier;
+			player.statDefense += DefenseBonus; // Grant a +10 defense boost to the player while the buff is active.
+			player.lifeRegen	+= 	lRegen;
+			player.moveSpeed 	+= 	mSpeed;
+			player.breathMax 	+= 	mBrath;
+			player.breath    	+= 	brath;
+			player.findTreasure = true;
 		}
-        
+
     }
 }
