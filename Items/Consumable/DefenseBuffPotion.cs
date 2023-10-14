@@ -1,4 +1,5 @@
 using Microsoft.Xna.Framework;
+using OmniMod.Items.Placeable;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -36,7 +37,7 @@ namespace OmniMod.Items.Consumable{
 
 		public override void AddRecipes() {
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 6);
+			recipe.AddIngredient<OmniBlock>(4);
 			recipe.AddTile<Tiles.OmniBench>();
 			recipe.Register();
 		}

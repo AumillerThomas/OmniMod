@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using OmniMod.Items.Placeable;
 
 namespace OmniMod.Items.Placeable{
 
@@ -19,7 +20,7 @@ namespace OmniMod.Items.Placeable{
         public override void AddRecipes() {
 
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.Wood, 2);
+			recipe.AddIngredient<OmniBlock>(3);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.Register();
 		}
