@@ -9,9 +9,7 @@ namespace OmniMod.Tiles{
 
     public class OmniBlock : ModTile{
 
-    
-        public class ExampleBlock : ModTile
-	{
+	
 		public override void SetStaticDefaults() {
 			Main.tileSolid[Type] = true;
 			Main.tileMergeDirt[Type] = true;
@@ -30,7 +28,7 @@ namespace OmniMod.Tiles{
 			style = ModContent.GetInstance<WaterfallStyle>().Slot;
 		}
     
-    }
+    
 
 
 }}
