@@ -44,7 +44,7 @@ namespace OmniMod.Items.Tools{
 
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.DirtBlock, 10);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddTile<Tiles.OmniBench>();
 			recipe.Register();
 		}
 	}

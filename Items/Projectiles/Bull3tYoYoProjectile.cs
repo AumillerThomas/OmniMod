@@ -6,9 +6,9 @@ using OmniMod.Items.Dusts;
 
 namespace OmniMod.Items.Projectiles{
 
-    public class StoepsisYoYoProjectile : ModProjectile{
-   
-		public override void SetStaticDefaults() {
+    public class Bull3tYoYoProjectile : ModProjectile{
+
+        public override void SetStaticDefaults() {
 			// The following sets are only applicable to yoyo that use aiStyle 99.
 
 			// YoyosLifeTimeMultiplier is how long in seconds the yoyo will stay out before automatically returning to the player. 
@@ -45,15 +45,11 @@ namespace OmniMod.Items.Projectiles{
 		// Any AI method can be used for dust, spawning projectiles, etc specific to your yoyo.
 
 		public override void PostAI() {
-			if (Main.rand.NextBool(6)) {
-				Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<Bubble>());
+			if (Main.rand.NextBool(5)) {
 				Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<StarOne>()); // Makes the projectile emit dust.
 			}
 		}
-	
+
+    }
+
 }
-
-
-}
-
-

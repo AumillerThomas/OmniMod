@@ -3,6 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using OmniMod.Items.Dusts;
+using OmniMod.Tiles;
 
 namespace OmniMod.Items.Tools{
     public class OmniPii : ModItem{
@@ -34,7 +35,7 @@ namespace OmniMod.Items.Tools{
 		{
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.DirtBlock, 10);
-			recipe.AddTile(TileID.WorkBenches);
+			recipe.AddTile<Tiles.OmniBench>();
 			recipe.Register();
 		}
     }

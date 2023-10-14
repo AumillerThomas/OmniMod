@@ -8,9 +8,9 @@ using OmniMod.Items.Dusts;
 
 namespace OmniMod.Items.Wapons;
 
-public class StoepsisYoYo : ModItem {
+public class Bull3tYoYo : ModItem{
 
-        public override void SetStaticDefaults() {
+     public override void SetStaticDefaults() {
 			// These are all related to gamepad controls and don't seem to affect anything else
 			ItemID.Sets.Yoyo[Item.type] = true; // Used to increase the gamepad range when using Strings.
 			ItemID.Sets.GamepadExtraRange[Item.type] = 50; // Increases the gamepad range. Some vanilla values: 4 (Wood), 10 (Valor), 13 (Yelets), 18 (The Eye of Cthulhu), 21 (Terrarian).
@@ -65,10 +65,10 @@ public class StoepsisYoYo : ModItem {
 
 		public override void MeleeEffects(Player player, Rectangle hitbox) {
 			if (Main.rand.NextBool(10)) {
-				Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, ModContent.DustType<StarOne>());
+				Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, ModContent.DustType<Bubble>());
 			}
 		}
-		
+
 		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
 
@@ -79,5 +79,3 @@ public class StoepsisYoYo : ModItem {
 		}
 
 }
-
-
