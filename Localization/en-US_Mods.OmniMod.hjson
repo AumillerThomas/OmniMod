@@ -66,6 +66,8 @@ Items: {
 		DisplayName: Omni Block
 		Tooltip: ""
 	}
+	OmniMod:OmniOrePassMessage = "Generating Omni Ore..."
+
 }
 
 Projectiles: {
