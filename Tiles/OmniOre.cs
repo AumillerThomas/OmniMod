@@ -46,7 +46,7 @@ namespace OmniMod.Tiles{
 
         //public override void SetStaticDefaults()
         //{
-       //     OmniOrePassMessage = Mod.GetLocalization($"WorldGen.{nameof(OmniOrePassMessage)}"); //TODO: GetLocalozation fixen
+       //     OmniOrePassMessage = Mod.OmniMod.GetLocalization($"WorldGen.{nameof(OmniOrePassMessage)}"); //TODO: GetLocalozation fixen
         //}
 
         // World generation is explained more in https://github.com/tModLoader/tModLoader/wiki/World-Generation
