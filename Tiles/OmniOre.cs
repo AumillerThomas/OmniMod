@@ -44,10 +44,12 @@ namespace OmniMod.Tiles{
 		public static LocalizedText OmniOrePassMessage { get; private set; }
 		//public static ILocalizedModType Mod{get; set;}
 
-        //public override void SetStaticDefaults()
-        //{
+        public override void SetStaticDefaults()
+        {
+														OmniOrePassMessage = ModContent.GetLocalizationKey("OmniMod:OmniOrePassMessage");
+
        //     OmniOrePassMessage = Mod.OmniMod.GetLocalization($"WorldGen.{nameof(OmniOrePassMessage)}"); //TODO: GetLocalozation fixen
-        //}
+        }
 
         // World generation is explained more in https://github.com/tModLoader/tModLoader/wiki/World-Generation
         public override void ModifyWorldGenTasks(List<GenPass> tasks, ref double totalWeight) {
