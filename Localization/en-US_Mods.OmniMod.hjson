@@ -66,17 +66,13 @@ Items: {
 		DisplayName: Omni Block
 		Tooltip: ""
 	}
-	
-	OmniMod:OmniOrePassMessage = "Generating Omni Ore..."
+}
 
-{
-    "Tiles": {
-        "OmniOre": {
-            "DisplayName": "Omni Ore",
-            "Tooltip": "This ore is omnipotent"
-        }
-    },
-    "OmniOrePassMessage": "Generating Omni Ore..."
+Tiles: {
+	OmniOre: {
+		DisplayName: Omni Ore
+		Tooltip: Ah ja so geil
+	}
 }
 
 Projectiles: {
