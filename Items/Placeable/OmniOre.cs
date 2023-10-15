@@ -21,7 +21,7 @@ namespace OmniMod.Items.Placeable{
 			Item.width = 12;
 			Item.height = 12;
 			Item.value = 3000;
-			Item.netID = 555555;
+			
 		}
 
      
