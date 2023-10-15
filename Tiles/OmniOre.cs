@@ -23,8 +23,10 @@ namespace OmniMod.Tiles{
 			Main.tileSolid[Type] = true;
 			Main.tileBlockLight[Type] = true;
 
-			LocalizedText name = CreateMapEntryName();
-			AddMapEntry(new Color(152, 171, 198), name);
+			//LocalizedText name = CreateMapEntryName();
+			//AddMapEntry(new Color(152, 171, 198), name);
+			AddMapEntry(new Color(152, 171, 198), Language.GetText("Mods.OmniMod.Tiles.OmniOre.DisplayName"));
+    
 
 			DustType = 84;
 			HitSound = SoundID.Tink;
@@ -46,7 +48,9 @@ namespace OmniMod.Tiles{
 
         public override void SetStaticDefaults()
         {
-														OmniOrePassMessage = ModContent.GetLocalizationKey("OmniMod:OmniOrePassMessage");
+			//AddMapEntry(new Color(152, 171, 198), CreateMapEntryName());
+
+			OmniOrePassMessage = Language.GetText("Mods.OmniMod.OmniOrePassMessage");
 
        //     OmniOrePassMessage = Mod.OmniMod.GetLocalization($"WorldGen.{nameof(OmniOrePassMessage)}"); //TODO: GetLocalozation fixen
         }
