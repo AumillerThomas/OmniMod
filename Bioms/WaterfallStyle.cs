@@ -1,10 +1,18 @@
+/**
+**/
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace OmniMod.Bioms{
+namespace OmniMod.Bioms{/// <summary>
+/// Namensraum Biom
+/// </summary>
 
-	public class WaterfallStyle :ModWaterfallStyle{
+	public class WaterfallStyle :ModWaterfallStyle{/// <summary>
+	/// laesst wasserfall leuchten
+	/// </summary>
+	/// <param name="i"></param> x vector
+	/// <param name="j"></param> y vector
 
 	
 	// Makes the waterfall provide light
