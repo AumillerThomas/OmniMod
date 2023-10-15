@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "z5fiBzJxCphhbPaPDxZjf7fT67NRnRQiNnX1J3sHxx/SbjlvsPGNqbBuL0mvMWXqWSHBHLr9isvV3CJnf3MsoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aumil\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

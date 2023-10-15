@@ -2,6 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using OmniMod.Items.Placeable;
 
 namespace OmniMod.Items.Armor{
     [AutoloadEquip(EquipType.Body)]
@@ -31,7 +32,8 @@ namespace OmniMod.Items.Armor{
 		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 6);
+			recipe.AddIngredient<OmniBlock>(2);
+			recipe.AddIngredient<OmniOre>(4);
 			recipe.AddTile<Tiles.OmniBench>();
 			recipe.Register();
 		}
