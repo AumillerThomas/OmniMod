@@ -61,6 +61,23 @@ Items: {
 		Tooltip: ""
 		DisplayName: Defense Buff Potion
 	}
+
+	OmniBlock: {
+		DisplayName: Omni Block
+		Tooltip: ""
+	}
+
+	OmniOre: {
+		DisplayName: Omni Ore
+		Tooltip: ""
+	}
+}
+
+Tiles: {
+	OmniOre: {
+		DisplayName: Omni Ore
+		Tooltip: Ah ja so geil
+	}
 }
 
 Projectiles: {

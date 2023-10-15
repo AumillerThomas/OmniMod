@@ -1,4 +1,5 @@
 using Microsoft.Xna.Framework;
+using OmniMod.Items.Placeable;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -26,7 +27,7 @@ namespace OmniMod.Items.Consumable{
 			Item.useTime = 15;
 			Item.useTurn = true;
 			Item.UseSound = SoundID.Item3;
-			Item.maxStack = 30;
+			Item.maxStack = 45;
 			Item.consumable = true;
 			Item.rare = ItemRarityID.Orange;
 			Item.value = Item.buyPrice(gold: 1);
@@ -36,7 +37,7 @@ namespace OmniMod.Items.Consumable{
 
 		public override void AddRecipes() {
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 6);
+			recipe.AddIngredient<OmniBlock>(4);
 			recipe.AddTile<Tiles.OmniBench>();
 			recipe.Register();
 		}
