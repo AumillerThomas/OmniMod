@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Armor::ThomysHose</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a738f1a2919849644ad4b6f215d4b8fb3" prot="public" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int OmniMod.Items.Armor.ThomysHose.MoveSpeedBonus</definition>
+        <argsstring></argsstring>
+        <name>MoveSpeedBonus</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHose.MoveSpeedBonus</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHose.cs" line="8" column="32" bodyfile="Items/Armor/ThomysHose.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a50d0281bf5a594a0fbe8846c78ee58b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override LocalizedText</type>
+        <definition>override LocalizedText OmniMod.Items.Armor.ThomysHose.Tooltip</definition>
+        <argsstring></argsstring>
+        <name>Tooltip</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHose.Tooltip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHose.cs" line="10" column="31" bodyfile="Items/Armor/ThomysHose.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1aeb3ed429167e195962ba47ba07a63e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysHose.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHose.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHose.cs" line="12" column="22" bodyfile="Items/Armor/ThomysHose.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a69494a54edafd9dc40f86d892ae293b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysHose.UpdateEquip</definition>
+        <argsstring>(Player player)</argsstring>
+        <name>UpdateEquip</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHose.UpdateEquip</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHose.cs" line="20" column="22" bodyfile="Items/Armor/ThomysHose.cs" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a1ae4f9d354e6534ed2cc5af723304060" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysHose.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHose.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHose.cs" line="25" column="22" bodyfile="Items/Armor/ThomysHose.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Armor.ThomysHose</label>
+        <link refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Armor.ThomysHose</label>
+        <link refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Armor/ThomysHose.cs" line="7" column="7" bodyfile="Items/Armor/ThomysHose.cs" bodystart="7" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a1ae4f9d354e6534ed2cc5af723304060" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHose</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a738f1a2919849644ad4b6f215d4b8fb3" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHose</scope><name>MoveSpeedBonus</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1aeb3ed429167e195962ba47ba07a63e22" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHose</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a50d0281bf5a594a0fbe8846c78ee58b3" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHose</scope><name>Tooltip</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a69494a54edafd9dc40f86d892ae293b7" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHose</scope><name>UpdateEquip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="_bull3t_yo_yo_projectile_8cs" kind="file" language="C#">
+    <compoundname>Bull3tYoYoProjectile.cs</compoundname>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_bull3t_yo_yo_projectile" prot="public">OmniMod::Items::Projectiles::Bull3tYoYoProjectile</innerclass>
+    <innernamespace refid="namespace_omni_mod">OmniMod</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items">OmniMod::Items</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_projectiles">OmniMod::Items::Projectiles</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria.ID;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria.ModLoader;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_omni_mod_1_1_items_1_1_dusts" kindref="compound">OmniMod.Items.Dusts</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_omni_mod_1_1_items_1_1_projectiles" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_omni_mod_1_1_items_1_1_projectiles" kindref="compound">OmniMod.Items.Projectiles</ref>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_bull3t_yo_yo_projectile" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_bull3t_yo_yo_projectile" kindref="compound">Bull3tYoYoProjectile</ref><sp/>:<sp/>ModProjectile{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetStaticDefaults()<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>following<sp/>sets<sp/>are<sp/>only<sp/>applicable<sp/>to<sp/>yoyo<sp/>that<sp/>use<sp/>aiStyle<sp/>99.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>YoyosLifeTimeMultiplier<sp/>is<sp/>how<sp/>long<sp/>in<sp/>seconds<sp/>the<sp/>yoyo<sp/>will<sp/>stay<sp/>out<sp/>before<sp/>automatically<sp/>returning<sp/>to<sp/>the<sp/>player.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Vanilla<sp/>values<sp/>range<sp/>from<sp/>3f<sp/>(Wood)<sp/>to<sp/>16f<sp/>(Chik),<sp/>and<sp/>defaults<sp/>to<sp/>-1f.<sp/>Leaving<sp/>as<sp/>-1<sp/>will<sp/>make<sp/>the<sp/>time<sp/>infinite.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProjectileID.Sets.YoyosLifeTimeMultiplier[Projectile.type]<sp/>=<sp/>25.5f;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>YoyosMaximumRange<sp/>is<sp/>the<sp/>maximum<sp/>distance<sp/>the<sp/>yoyo<sp/>sleep<sp/>away<sp/>from<sp/>the<sp/>player.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Vanilla<sp/>values<sp/>range<sp/>from<sp/>130f<sp/>(Wood)<sp/>to<sp/>400f<sp/>(Terrarian),<sp/>and<sp/>defaults<sp/>to<sp/>200f.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProjectileID.Sets.YoyosMaximumRange[Projectile.type]<sp/>=<sp/>900f;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>YoyosTopSpeed<sp/>is<sp/>top<sp/>speed<sp/>of<sp/>the<sp/>yoyo<sp/>Projectile.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Vanilla<sp/>values<sp/>range<sp/>from<sp/>9f<sp/>(Wood)<sp/>to<sp/>17.5f<sp/>(Terrarian),<sp/>and<sp/>defaults<sp/>to<sp/>10f.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProjectileID.Sets.YoyosTopSpeed[Projectile.type]<sp/>=<sp/>21f;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetDefaults()<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Projectile.width<sp/>=<sp/>32;<sp/></highlight><highlight class="comment">//<sp/>The<sp/>width<sp/>of<sp/>the<sp/>projectile&apos;s<sp/>hitbox.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Projectile.height<sp/>=<sp/>32;<sp/></highlight><highlight class="comment">//<sp/>The<sp/>height<sp/>of<sp/>the<sp/>projectile&apos;s<sp/>hitbox.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Projectile.aiStyle<sp/>=<sp/>ProjAIStyleID.Yoyo;<sp/></highlight><highlight class="comment">//<sp/>The<sp/>projectile&apos;s<sp/>ai<sp/>style.<sp/>Yoyos<sp/>use<sp/>aiStyle<sp/>99<sp/>(ProjAIStyleID.Yoyo).<sp/>A<sp/>lot<sp/>of<sp/>yoyo<sp/>code<sp/>checks<sp/>for<sp/>this<sp/>aiStyle<sp/>to<sp/>work<sp/>properly.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Projectile.friendly<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Player<sp/>shot<sp/>projectile.<sp/>Does<sp/>damage<sp/>to<sp/>enemies<sp/>but<sp/>not<sp/>to<sp/>friendly<sp/>Town<sp/>NPCs.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Projectile.DamageType<sp/>=<sp/>DamageClass.MeleeNoSpeed;<sp/></highlight><highlight class="comment">//<sp/>Benefits<sp/>from<sp/>melee<sp/>bonuses.<sp/>MeleeNoSpeed<sp/>means<sp/>the<sp/>item<sp/>will<sp/>not<sp/>scale<sp/>with<sp/>attack<sp/>speed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Projectile.penetrate<sp/>=<sp/>-1;<sp/></highlight><highlight class="comment">//<sp/>All<sp/>vanilla<sp/>yoyos<sp/>have<sp/>infinite<sp/>penetration.<sp/>The<sp/>number<sp/>of<sp/>enemies<sp/>the<sp/>yoyo<sp/>can<sp/>hit<sp/>before<sp/>being<sp/>pulled<sp/>back<sp/>in<sp/>is<sp/>based<sp/>on<sp/>YoyosLifeTimeMultiplier.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Projectile.scale<sp/>=<sp/>1f;<sp/>//<sp/>The<sp/>scale<sp/>of<sp/>the<sp/>projectile.<sp/>Most<sp/>yoyos<sp/>are<sp/>1f,<sp/>but<sp/>a<sp/>few<sp/>are<sp/>larger.<sp/>The<sp/>Kraken<sp/>is<sp/>the<sp/>largest<sp/>at<sp/>1.2f</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>notes<sp/>for<sp/>aiStyle<sp/>99:<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>localAI[0]<sp/>is<sp/>used<sp/>for<sp/>timing<sp/>up<sp/>to<sp/>YoyosLifeTimeMultiplier</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>localAI[1]<sp/>can<sp/>be<sp/>used<sp/>freely<sp/>by<sp/>specific<sp/>types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ai[0]<sp/>and<sp/>ai[1]<sp/>usually<sp/>point<sp/>towards<sp/>the<sp/>x<sp/>and<sp/>y<sp/>world<sp/>coordinate<sp/>hover<sp/>point</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ai[0]<sp/>is<sp/>-1f<sp/>once<sp/>YoyosLifeTimeMultiplier<sp/>is<sp/>reached,<sp/>when<sp/>the<sp/>player<sp/>is<sp/>stoned/frozen,<sp/>when<sp/>the<sp/>yoyo<sp/>is<sp/>too<sp/>far<sp/>away,<sp/>or<sp/>the<sp/>player<sp/>is<sp/>no<sp/>longer<sp/>clicking<sp/>the<sp/>shoot<sp/>button.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ai[0]<sp/>being<sp/>negative<sp/>makes<sp/>the<sp/>yoyo<sp/>move<sp/>back<sp/>towards<sp/>the<sp/>player</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Any<sp/>AI<sp/>method<sp/>can<sp/>be<sp/>used<sp/>for<sp/>dust,<sp/>spawning<sp/>projectiles,<sp/>etc<sp/>specific<sp/>to<sp/>your<sp/>yoyo.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PostAI()<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Main.rand.NextBool(5))<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Dust.NewDust(Projectile.position,<sp/>Projectile.width,<sp/>Projectile.height,<sp/>ModContent.DustType&lt;<ref refid="class_omni_mod_1_1_items_1_1_dusts_1_1_star_one" kindref="compound">StarOne</ref>&gt;());<sp/></highlight><highlight class="comment">//<sp/>Makes<sp/>the<sp/>projectile<sp/>emit<sp/>dust.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Items/Projectiles/Bull3tYoYoProjectile.cs"/>
+  </compounddef>
+</doxygen>

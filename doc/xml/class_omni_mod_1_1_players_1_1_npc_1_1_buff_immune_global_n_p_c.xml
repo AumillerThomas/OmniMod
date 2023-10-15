@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Players::Npc::BuffImmuneGlobalNPC</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GlobalNPC</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1a9c8d7d7a94010ef69e8b9b34d8f448ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Players.Npc.BuffImmuneGlobalNPC.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Players.Npc.BuffImmuneGlobalNPC.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/Npc/BuffImmuneGlobalNPC.cs" line="9" column="30" bodyfile="Players/Npc/BuffImmuneGlobalNPC.cs" bodystart="9" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1adb6be80a65f0b37fa534b8208b8f6360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Players.Npc.BuffImmuneGlobalNPC.SetDefaults</definition>
+        <argsstring>(NPC entity)</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Players.Npc.BuffImmuneGlobalNPC.SetDefaults</qualifiedname>
+        <param>
+          <type>NPC</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/Npc/BuffImmuneGlobalNPC.cs" line="41" column="22" bodyfile="Players/Npc/BuffImmuneGlobalNPC.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1a5a8cdf7c1c46489faafe1e860c0916b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OmniMod.Players.Npc.BuffImmuneGlobalNPC.SetDefenseDebuffStaticDefaults</definition>
+        <argsstring>(int buffType)</argsstring>
+        <name>SetDefenseDebuffStaticDefaults</name>
+        <qualifiedname>OmniMod.Players.Npc.BuffImmuneGlobalNPC.SetDefenseDebuffStaticDefaults</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>buffType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/Npc/BuffImmuneGlobalNPC.cs" line="36" column="20" bodyfile="Players/Npc/BuffImmuneGlobalNPC.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>GlobalNPC</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Players.Npc.BuffImmuneGlobalNPC</label>
+        <link refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>GlobalNPC</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Players.Npc.BuffImmuneGlobalNPC</label>
+        <link refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Players/Npc/BuffImmuneGlobalNPC.cs" line="7" column="11" bodyfile="Players/Npc/BuffImmuneGlobalNPC.cs" bodystart="7" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1adb6be80a65f0b37fa534b8208b8f6360" prot="public" virt="non-virtual"><scope>OmniMod::Players::Npc::BuffImmuneGlobalNPC</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1a5a8cdf7c1c46489faafe1e860c0916b1" prot="public" virt="non-virtual"><scope>OmniMod::Players::Npc::BuffImmuneGlobalNPC</scope><name>SetDefenseDebuffStaticDefaults</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1a9c8d7d7a94010ef69e8b9b34d8f448ab" prot="public" virt="non-virtual"><scope>OmniMod::Players::Npc::BuffImmuneGlobalNPC</scope><name>SetStaticDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

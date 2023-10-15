@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_tiles" kind="namespace" language="C#">
+    <compoundname>OmniMod::Tiles</compoundname>
+    <innerclass refid="class_omni_mod_1_1_tiles_1_1_omni_bench" prot="public">OmniMod::Tiles::OmniBench</innerclass>
+    <innerclass refid="class_omni_mod_1_1_tiles_1_1_omni_block" prot="public">OmniMod::Tiles::OmniBlock</innerclass>
+    <innerclass refid="class_omni_mod_1_1_tiles_1_1_omni_ore" prot="public">OmniMod::Tiles::OmniOre</innerclass>
+    <innerclass refid="class_omni_mod_1_1_tiles_1_1_omni_ore_pass" prot="public">OmniMod::Tiles::OmniOrePass</innerclass>
+    <innerclass refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system" prot="public">OmniMod::Tiles::OmniOreSystem</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tiles/OmniBench.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

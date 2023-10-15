@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Tools::OmniDrill</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1a8ad0b0aca03466b346b5cdc000f97358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniDrill.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniDrill.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniDrill.cs" line="10" column="30" bodyfile="Items/Tools/OmniDrill.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1acf08db6fd125733cdf4053c13cc2841e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniDrill.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniDrill.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniDrill.cs" line="16" column="22" bodyfile="Items/Tools/OmniDrill.cs" bodystart="16" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1a2296abfcb649db7611912469b3c1760e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniDrill.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniDrill.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniDrill.cs" line="43" column="22" bodyfile="Items/Tools/OmniDrill.cs" bodystart="43" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Tools.OmniDrill</label>
+        <link refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Tools.OmniDrill</label>
+        <link refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Tools/OmniDrill.cs" line="8" column="11" bodyfile="Items/Tools/OmniDrill.cs" bodystart="8" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1a2296abfcb649db7611912469b3c1760e" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniDrill</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1acf08db6fd125733cdf4053c13cc2841e" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniDrill</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1a8ad0b0aca03466b346b5cdc000f97358" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniDrill</scope><name>SetStaticDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

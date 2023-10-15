@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_d80ca74231b0e919869f7db56f3b4758" kind="dir">
+    <compoundname>Players</compoundname>
+    <innerdir refid="dir_a718a44afb5841ae516f9e672382cb77">Players/Npc</innerdir>
+    <innerfile refid="_damage_modification_player_8cs">DamageModificationPlayer.cs</innerfile>
+    <innerfile refid="_luck_player_8cs">LuckPlayer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Players/"/>
+  </compounddef>
+</doxygen>

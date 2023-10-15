@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Wapons::OmniSword</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword_1a765b3e2f9ef310c8d48e98065f87aed2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.OmniSword.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Wapons.OmniSword.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/OmniSword.cs" line="11" column="22" bodyfile="Items/Wapons/OmniSword.cs" bodystart="11" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword_1a17326fa1975e0c9433227e980c636e8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.OmniSword.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Wapons.OmniSword.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/OmniSword.cs" line="27" column="22" bodyfile="Items/Wapons/OmniSword.cs" bodystart="27" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Wapons.OmniSword</label>
+        <link refid="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Wapons.OmniSword</label>
+        <link refid="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Wapons/OmniSword.cs" line="7" column="7" bodyfile="Items/Wapons/OmniSword.cs" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword_1a17326fa1975e0c9433227e980c636e8c" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::OmniSword</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword_1a765b3e2f9ef310c8d48e98065f87aed2" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::OmniSword</scope><name>SetDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

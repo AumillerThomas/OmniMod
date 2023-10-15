@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="_thomys_helm_8cs" kind="file" language="C#">
+    <compoundname>ThomysHelm.cs</compoundname>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm" prot="public">OmniMod::Items::Armor::ThomysHelm</innerclass>
+    <innernamespace refid="namespace_omni_mod">OmniMod</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items">OmniMod::Items</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_armor">OmniMod::Items::Armor</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria.ID;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria.Localization;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria.ModLoader;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_omni_mod_1_1_items_1_1_armor" kindref="compound">OmniMod.Items.Armor</ref>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>[AutoloadEquip(EquipType.Head)]</highlight></codeline>
+<codeline lineno="8" refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm" kindref="compound">ThomysHelm</ref><sp/>:<sp/>ModItem<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>AdditiveGenericDamageBonus<sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>LocalizedText<sp/>SetBonusText<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetStaticDefaults()<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>your<sp/>head<sp/>equipment<sp/>should<sp/>draw<sp/>hair<sp/>while<sp/>drawn,<sp/>use<sp/>one<sp/>of<sp/>the<sp/>following:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ArmorIDs.Head.Sets.DrawHead[Item.headSlot]<sp/>=<sp/>false;<sp/>//<sp/>Don&apos;t<sp/>draw<sp/>the<sp/>head<sp/>at<sp/>all.<sp/>Used<sp/>by<sp/>Space<sp/>Creature<sp/>Mask</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ArmorIDs.Head.Sets.DrawHatHair[Item.headSlot]<sp/>=<sp/>true;<sp/>//<sp/>Draw<sp/>hair<sp/>as<sp/>if<sp/>a<sp/>hat<sp/>was<sp/>covering<sp/>the<sp/>top.<sp/>Used<sp/>by<sp/>Wizards<sp/>Hat</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ArmorIDs.Head.Sets.DrawFullHair[Item.headSlot]<sp/>=<sp/>true;<sp/>//<sp/>Draw<sp/>all<sp/>hair<sp/>as<sp/>normal.<sp/>Used<sp/>by<sp/>Mime<sp/>Mask,<sp/>Sunglasses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ArmorIDs.Head.Sets.DrawsBackHairWithoutHeadgear[Item.headSlot]<sp/>=<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetBonusText<sp/>=<sp/>this.GetLocalization(</highlight><highlight class="stringliteral">&quot;SetBonus&quot;</highlight><highlight class="normal">).WithFormatArgs(AdditiveGenericDamageBonus);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetDefaults()<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.width<sp/>=<sp/>18;<sp/></highlight><highlight class="comment">//<sp/>Width<sp/>of<sp/>the<sp/>item</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.height<sp/>=<sp/>18;<sp/></highlight><highlight class="comment">//<sp/>Height<sp/>of<sp/>the<sp/>item</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.value<sp/>=<sp/>Item.sellPrice(gold:<sp/>1);<sp/></highlight><highlight class="comment">//<sp/>How<sp/>many<sp/>coins<sp/>the<sp/>item<sp/>is<sp/>worth</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.rare<sp/>=<sp/>ItemRarityID.Green;<sp/></highlight><highlight class="comment">//<sp/>The<sp/>rarity<sp/>of<sp/>the<sp/>item</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.defense<sp/>=<sp/>5;<sp/></highlight><highlight class="comment">//<sp/>The<sp/>amount<sp/>of<sp/>defense<sp/>the<sp/>item<sp/>will<sp/>give<sp/>when<sp/>equipped</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>IsArmorSet<sp/>determines<sp/>what<sp/>armor<sp/>pieces<sp/>are<sp/>needed<sp/>for<sp/>the<sp/>setbonus<sp/>to<sp/>take<sp/>effect</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsArmorSet(Item<sp/>head,<sp/>Item<sp/>body,<sp/>Item<sp/>legs)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>body.type<sp/>==<sp/>ModContent.ItemType&lt;<ref refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust" kindref="compound">ThomysBrust</ref>&gt;();<sp/></highlight><highlight class="comment">//&amp;&amp;<sp/>legs.type<sp/>==<sp/>ModContent.ItemType&lt;ExampleLeggings&gt;();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>UpdateArmorSet<sp/>allows<sp/>you<sp/>to<sp/>give<sp/>set<sp/>bonuses<sp/>to<sp/>the<sp/>armor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateArmorSet(Player<sp/>player)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>player.setBonus<sp/>=<sp/>SetBonusText.Value;<sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>the<sp/>setbonus<sp/>tooltip:<sp/>&quot;Increases<sp/>dealt<sp/>damage<sp/>by<sp/>20%&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>player.GetDamage(DamageClass.Generic)<sp/>+=<sp/>AdditiveGenericDamageBonus<sp/>/<sp/>100f;<sp/></highlight><highlight class="comment">//<sp/>Increase<sp/>dealt<sp/>damage<sp/>for<sp/>all<sp/>weapon<sp/>classes<sp/>by<sp/>20%</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Please<sp/>see<sp/>Content/ExampleRecipes.cs<sp/>for<sp/>a<sp/>detailed<sp/>explanation<sp/>of<sp/>recipe<sp/>creation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddRecipes()<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Recipe<sp/>recipe<sp/>=<sp/>CreateRecipe();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>recipe.AddIngredient(ItemID.DirtBlock,<sp/>6);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>recipe.AddTile&lt;Tiles.OmniBench&gt;();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>recipe.Register();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Items/Armor/ThomysHelm.cs"/>
+  </compounddef>
+</doxygen>

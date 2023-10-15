@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_7d02ce0627a9d08bc7415ddf5065332d" kind="dir">
+    <compoundname>Items</compoundname>
+    <innerdir refid="dir_594c9cccfe4b7ac3d3a545178db42af8">Items/Armor</innerdir>
+    <innerdir refid="dir_9a43646522b769b954e5059df3ab53ce">Items/Consumable</innerdir>
+    <innerdir refid="dir_660410a77e1c21c3c2c76215f137d33b">Items/Dusts</innerdir>
+    <innerdir refid="dir_0dd717dbee56cbd85fa604b22c8ca428">Items/Placeable</innerdir>
+    <innerdir refid="dir_01d09ab879707df984a29d85baaa98a5">Items/Projectiles</innerdir>
+    <innerdir refid="dir_b1409b24683217ecbef66cff5b794cc7">Items/Tools</innerdir>
+    <innerdir refid="dir_be20d2970f6586618bd8c5ea361d56f5">Items/Wapons</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/"/>
+  </compounddef>
+</doxygen>

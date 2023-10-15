@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_tiles_1_1_omni_bench" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Tiles::OmniBench</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModTile</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_tiles_1_1_omni_bench_1a6447a0a47ffca3a3d0cd32a843be7634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Tiles.OmniBench.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Tiles.OmniBench.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniBench.cs" line="13" column="22" bodyfile="Tiles/OmniBench.cs" bodystart="13" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_tiles_1_1_omni_bench_1adc5f4a6166adceb1be924c4acd9961eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Tiles.OmniBench.NumDust</definition>
+        <argsstring>(int x, int y, bool fail, ref int num)</argsstring>
+        <name>NumDust</name>
+        <qualifiedname>OmniMod.Tiles.OmniBench.NumDust</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fail</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniBench.cs" line="37" column="22" bodyfile="Tiles/OmniBench.cs" bodystart="37" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModTile</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Tiles.OmniBench</label>
+        <link refid="class_omni_mod_1_1_tiles_1_1_omni_bench"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModTile</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Tiles.OmniBench</label>
+        <link refid="class_omni_mod_1_1_tiles_1_1_omni_bench"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tiles/OmniBench.cs" line="11" column="7" bodyfile="Tiles/OmniBench.cs" bodystart="12" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_bench_1adc5f4a6166adceb1be924c4acd9961eb" prot="public" virt="non-virtual"><scope>OmniMod::Tiles::OmniBench</scope><name>NumDust</name></member>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_bench_1a6447a0a47ffca3a3d0cd32a843be7634" prot="public" virt="non-virtual"><scope>OmniMod::Tiles::OmniBench</scope><name>SetStaticDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

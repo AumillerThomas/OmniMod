@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Tools::OmniAxe</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1a95a67d8c5f7bcf971c76d18b2b8281ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniAxe.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniAxe.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniAxe.cs" line="12" column="30" bodyfile="Items/Tools/OmniAxe.cs" bodystart="12" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1a0f3431932bcce1c7a1b87cd0591c238e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniAxe.MeleeEffects</definition>
+        <argsstring>(Player player, Rectangle hitbox)</argsstring>
+        <name>MeleeEffects</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniAxe.MeleeEffects</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>hitbox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniAxe.cs" line="31" column="22" bodyfile="Items/Tools/OmniAxe.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1aa82d9d9924f5b8916bfa0e471764f7ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniAxe.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniAxe.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniAxe.cs" line="39" column="22" bodyfile="Items/Tools/OmniAxe.cs" bodystart="39" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Tools.OmniAxe</label>
+        <link refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Tools.OmniAxe</label>
+        <link refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Tools/OmniAxe.cs" line="9" column="11" bodyfile="Items/Tools/OmniAxe.cs" bodystart="9" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1aa82d9d9924f5b8916bfa0e471764f7ee" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniAxe</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1a0f3431932bcce1c7a1b87cd0591c238e" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniAxe</scope><name>MeleeEffects</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1a95a67d8c5f7bcf971c76d18b2b8281ca" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniAxe</scope><name>SetDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

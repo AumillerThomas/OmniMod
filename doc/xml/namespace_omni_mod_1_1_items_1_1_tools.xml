@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_items_1_1_tools" kind="namespace" language="C#">
+    <compoundname>OmniMod::Items::Tools</compoundname>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe" prot="public">OmniMod::Items::Tools::OmniAxe</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill" prot="public">OmniMod::Items::Tools::OmniDrill</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii" prot="public">OmniMod::Items::Tools::OmniPii</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Tools/OmniAxe.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

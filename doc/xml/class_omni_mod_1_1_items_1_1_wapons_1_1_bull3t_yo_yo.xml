@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Wapons::Bull3tYoYo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1a879465e39d166705893ba2b207518329" prot="private" static="yes" mutable="no">
+        <type>readonly int[]</type>
+        <definition>readonly int [] OmniMod.Items.Wapons.Bull3tYoYo.unwantedPrefixes</definition>
+        <argsstring></argsstring>
+        <name>unwantedPrefixes</name>
+        <qualifiedname>OmniMod.Items.Wapons.Bull3tYoYo.unwantedPrefixes</qualifiedname>
+        <initializer>= new int[] { PrefixID.Terrible, PrefixID.Dull, PrefixID.Shameful, PrefixID.Annoying, PrefixID.Broken, PrefixID.Damaged, PrefixID.Shoddy }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/Bull3tYoYo.cs" line="46" column="29" bodyfile="Items/Wapons/Bull3tYoYo.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1af01a4744cd3cea9f77a236c6de569406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.Bull3tYoYo.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Items.Wapons.Bull3tYoYo.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/Bull3tYoYo.cs" line="13" column="27" bodyfile="Items/Wapons/Bull3tYoYo.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1afdd4a6b4e8fa7cdf26e1edb53e8b93b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.Bull3tYoYo.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Wapons.Bull3tYoYo.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/Bull3tYoYo.cs" line="20" column="22" bodyfile="Items/Wapons/Bull3tYoYo.cs" bodystart="20" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1ab94eee4028035114cce05830cae02613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool OmniMod.Items.Wapons.Bull3tYoYo.AllowPrefix</definition>
+        <argsstring>(int pre)</argsstring>
+        <name>AllowPrefix</name>
+        <qualifiedname>OmniMod.Items.Wapons.Bull3tYoYo.AllowPrefix</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/Bull3tYoYo.cs" line="48" column="22" bodyfile="Items/Wapons/Bull3tYoYo.cs" bodystart="48" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1ab8f0cd45d0a0d6ddd02d90d38b1385f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.Bull3tYoYo.MeleeEffects</definition>
+        <argsstring>(Player player, Rectangle hitbox)</argsstring>
+        <name>MeleeEffects</name>
+        <qualifiedname>OmniMod.Items.Wapons.Bull3tYoYo.MeleeEffects</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>hitbox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/Bull3tYoYo.cs" line="66" column="22" bodyfile="Items/Wapons/Bull3tYoYo.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1addb560d4ea0c3734468794cd637f652a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.Bull3tYoYo.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Wapons.Bull3tYoYo.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/Bull3tYoYo.cs" line="73" column="22" bodyfile="Items/Wapons/Bull3tYoYo.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Wapons.Bull3tYoYo</label>
+        <link refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Wapons.Bull3tYoYo</label>
+        <link refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Wapons/Bull3tYoYo.cs" line="11" column="7" bodyfile="Items/Wapons/Bull3tYoYo.cs" bodystart="11" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1addb560d4ea0c3734468794cd637f652a" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::Bull3tYoYo</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1ab94eee4028035114cce05830cae02613" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::Bull3tYoYo</scope><name>AllowPrefix</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1ab8f0cd45d0a0d6ddd02d90d38b1385f3" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::Bull3tYoYo</scope><name>MeleeEffects</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1afdd4a6b4e8fa7cdf26e1edb53e8b93b6" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::Bull3tYoYo</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1af01a4744cd3cea9f77a236c6de569406" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::Bull3tYoYo</scope><name>SetStaticDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1a879465e39d166705893ba2b207518329" prot="private" virt="non-virtual"><scope>OmniMod::Items::Wapons::Bull3tYoYo</scope><name>unwantedPrefixes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

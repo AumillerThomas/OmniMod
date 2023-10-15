@@ -1,0 +1,65 @@
+\doxysection{Omni\+Mod.\+Players.\+Damage\+Modification\+Player Klassenreferenz}
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player}\index{OmniMod.Players.DamageModificationPlayer@{OmniMod.Players.DamageModificationPlayer}}
+
+
+Abgeleitet von Mod\+Player.
+
+\doxysubsubsection*{Öffentliche Methoden}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_acc52e04bf5c45dd656d3b3efe98f0c6d} 
+override void {\bfseries Pre\+Update} ()
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a5b2b4ea5ef1817ffa2896e302b4a1bff} 
+override void {\bfseries Reset\+Effects} ()
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a6449cdf434c2bcd09aca3b40e36c4175} 
+override void {\bfseries Modify\+Hit\+NPC} (NPC target, ref NPC.\+Hit\+Modifiers modifiers)
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a6882af1f53e9f8a12a32d6a78c86ef67} 
+override void {\bfseries Draw\+Effects} (Player\+Draw\+Set draw\+Info, ref float r, ref float g, ref float b, ref float a, ref bool full\+Bright)
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a465b264a01c890782a0cef15bf20d59c} 
+override bool {\bfseries Consumable\+Dodge} (Player.\+Hurt\+Info info)
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_af9fdafc4c05439fbed39dda008e1ff38} 
+void {\bfseries Example\+Dodge\+Effects} ()
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a79dec7322601fcfe292d85992f4efbec} 
+override void {\bfseries On\+Hurt} (Player.\+Hurt\+Info info)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Öffentliche, statische Methoden}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_ad4ab4c51696ce7659d2d772d405422fe} 
+static void {\bfseries Handle\+Example\+Dodge\+Message} (Binary\+Reader reader, int who\+AmI)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Öffentliche Attribute}
+\begin{DoxyCompactItemize}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a23751d756a220c2aa5a87081367f483b} 
+float {\bfseries Additive\+Crit\+Damage\+Bonus}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a636102d153a5375811d2ae4fb6c1aeda} 
+bool {\bfseries example\+Dodge}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_ac29a272356d05b07c2233250bd0f9d10} 
+int {\bfseries example\+Dodge\+Cooldown}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a11725defdabca0d2483a9e15742500ee} 
+int {\bfseries example\+Dodge\+Visual\+Counter}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a49760e4467bbd5e5ae9d691f206c4c8c} 
+bool {\bfseries has\+Absorb\+Team\+Damage\+Effect}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a485f6392dfc91907c9fb457f1f8cd154} 
+bool {\bfseries defended\+By\+Absorb\+Team\+Damage\+Effect}
+\item 
+\label{class_omni_mod_1_1_players_1_1_damage_modification_player_a47e89e338176192eb8cfcb5b8d938849} 
+bool {\bfseries example\+Defense\+Debuff}
+\end{DoxyCompactItemize}
+
+
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Datei\+:\begin{DoxyCompactItemize}
+\item 
+Players/Damage\+Modification\+Player.\+cs\end{DoxyCompactItemize}

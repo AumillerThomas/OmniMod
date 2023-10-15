@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_items_1_1_armor" kind="namespace" language="C#">
+    <compoundname>OmniMod::Items::Armor</compoundname>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust" prot="public">OmniMod::Items::Armor::ThomysBrust</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm" prot="public">OmniMod::Items::Armor::ThomysHelm</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose" prot="public">OmniMod::Items::Armor::ThomysHose</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Armor/ThomysBrust.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

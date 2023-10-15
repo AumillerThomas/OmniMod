@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="_omni_drill_8cs" kind="file" language="C#">
+    <compoundname>OmniDrill.cs</compoundname>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill" prot="public">OmniMod::Items::Tools::OmniDrill</innerclass>
+    <innernamespace refid="namespace_omni_mod">OmniMod</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items">OmniMod::Items</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_tools">OmniMod::Items::Tools</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_omni_mod_1_1_items_1_1_projectiles" kindref="compound">OmniMod.Items.Projectiles</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria.ID;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Terraria.ModLoader;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_omni_mod_1_1_items_1_1_tools" kindref="compound">OmniMod.Items.Tools</ref>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill" kindref="compound">OmniDrill</ref><sp/>:<sp/>ModItem{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetStaticDefaults()<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>As<sp/>mentioned<sp/>in<sp/>the<sp/>documentation,<sp/>IsDrill<sp/>and<sp/>IsChainsaw<sp/>automatically<sp/>reduce<sp/>useTime<sp/>and<sp/>useAnimation<sp/>to<sp/>60%<sp/>of<sp/>what<sp/>is<sp/>set<sp/>in<sp/>SetDefaults<sp/>and<sp/>decrease<sp/>tileBoost<sp/>by<sp/>1,<sp/>but<sp/>only<sp/>for<sp/>vanilla<sp/>items.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>set<sp/>it<sp/>here<sp/>despite<sp/>it<sp/>doing<sp/>nothing<sp/>because<sp/>it<sp/>is<sp/>likely<sp/>to<sp/>be<sp/>used<sp/>by<sp/>other<sp/>mods<sp/>to<sp/>provide<sp/>special<sp/>effects<sp/>to<sp/>drill<sp/>or<sp/>chainsaw<sp/>items<sp/>globally.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ItemID.Sets.IsDrill[Type]<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetDefaults()<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.damage<sp/>=<sp/>27;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.DamageType<sp/>=<sp/>DamageClass.MeleeNoSpeed;<sp/></highlight><highlight class="comment">//<sp/>ignores<sp/>melee<sp/>speed<sp/>bonuses.<sp/>There&apos;s<sp/>no<sp/>need<sp/>for<sp/>drill<sp/>animations<sp/>to<sp/>play<sp/>faster,<sp/>nor<sp/>drills<sp/>to<sp/>dig<sp/>faster<sp/>with<sp/>melee<sp/>speed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.width<sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.height<sp/>=<sp/>12;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>IsDrill/IsChainsaw<sp/>effects<sp/>must<sp/>be<sp/>applied<sp/>manually,<sp/>so<sp/>60%<sp/>or<sp/>0.6<sp/>times<sp/>the<sp/>time<sp/>of<sp/>the<sp/>corresponding<sp/>pickaxe.<sp/>In<sp/>this<sp/>case,<sp/>60%<sp/>of<sp/>7<sp/>is<sp/>4<sp/>and<sp/>60%<sp/>of<sp/>25<sp/>is<sp/>15.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>you<sp/>decide<sp/>to<sp/>copy<sp/>values<sp/>from<sp/>vanilla<sp/>drills<sp/>or<sp/>chainsaws,<sp/>you<sp/>should<sp/>multiply<sp/>each<sp/>one<sp/>by<sp/>0.6<sp/>to<sp/>get<sp/>the<sp/>expected<sp/>behavior.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.useTime<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.useAnimation<sp/>=<sp/>15;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.useStyle<sp/>=<sp/>ItemUseStyleID.Shoot;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.knockBack<sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.value<sp/>=<sp/>Item.buyPrice(gold:<sp/>12,<sp/>silver:60);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.rare<sp/>=<sp/>ItemRarityID.LightRed;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.UseSound<sp/>=<sp/>SoundID.Item23;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.shoot<sp/>=<sp/>ModContent.ProjectileType&lt;<ref refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile" kindref="compound">OmniDrillProjectile</ref>&gt;();<sp/></highlight><highlight class="comment">//<sp/>Create<sp/>the<sp/>drill<sp/>projectile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.shootSpeed<sp/>=<sp/>32f;<sp/></highlight><highlight class="comment">//<sp/>Adjusts<sp/>how<sp/>far<sp/>away<sp/>from<sp/>the<sp/>player<sp/>to<sp/>hold<sp/>the<sp/>projectile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.noMelee<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Turns<sp/>off<sp/>damage<sp/>from<sp/>the<sp/>item<sp/>itself,<sp/>as<sp/>we<sp/>have<sp/>a<sp/>projectile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.noUseGraphic<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Stops<sp/>the<sp/>item<sp/>from<sp/>drawing<sp/>in<sp/>your<sp/>hands,<sp/>for<sp/>the<sp/>aforementioned<sp/>reason</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.channel<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Important<sp/>as<sp/>the<sp/>projectile<sp/>checks<sp/>if<sp/>the<sp/>player<sp/>channels</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>tileBoost<sp/>changes<sp/>the<sp/>range<sp/>of<sp/>tiles<sp/>that<sp/>the<sp/>item<sp/>can<sp/>reach.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>To<sp/>match<sp/>Titanium<sp/>Drill,<sp/>we<sp/>should<sp/>set<sp/>this<sp/>to<sp/>-1,<sp/>but<sp/>we&apos;ll<sp/>set<sp/>it<sp/>to<sp/>10<sp/>blocks<sp/>of<sp/>extra<sp/>range<sp/>for<sp/>the<sp/>sake<sp/>of<sp/>an<sp/>example.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.tileBoost<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Item.pick<sp/>=<sp/>190;<sp/></highlight><highlight class="comment">//<sp/>How<sp/>strong<sp/>the<sp/>drill<sp/>is,<sp/>see<sp/>https://terraria.wiki.gg/wiki/Pickaxe_power<sp/>for<sp/>a<sp/>list<sp/>of<sp/>common<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddRecipes()<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Recipe<sp/>recipe<sp/>=<sp/>CreateRecipe();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>recipe.AddIngredient(ItemID.DirtBlock,<sp/>10);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>recipe.AddTile&lt;Tiles.OmniBench&gt;();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>recipe.Register();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Items/Tools/OmniDrill.cs"/>
+  </compounddef>
+</doxygen>

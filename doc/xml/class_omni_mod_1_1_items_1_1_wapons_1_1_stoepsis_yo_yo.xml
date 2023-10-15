@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Wapons::StoepsisYoYo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9ec87909a5d8265e3e1b4fee9b0de716" prot="private" static="yes" mutable="no">
+        <type>readonly int[]</type>
+        <definition>readonly int [] OmniMod.Items.Wapons.StoepsisYoYo.unwantedPrefixes</definition>
+        <argsstring></argsstring>
+        <name>unwantedPrefixes</name>
+        <qualifiedname>OmniMod.Items.Wapons.StoepsisYoYo.unwantedPrefixes</qualifiedname>
+        <initializer>= new int[] { PrefixID.Terrible, PrefixID.Dull, PrefixID.Shameful, PrefixID.Annoying, PrefixID.Broken, PrefixID.Damaged, PrefixID.Shoddy }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/StoepsisYoYo.cs" line="46" column="29" bodyfile="Items/Wapons/StoepsisYoYo.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a2aa5605acf48fb16f303dc283d9bb6b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.StoepsisYoYo.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Items.Wapons.StoepsisYoYo.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/StoepsisYoYo.cs" line="13" column="30" bodyfile="Items/Wapons/StoepsisYoYo.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a28bbe6e684b0c8a01ba587f3f08ce89e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.StoepsisYoYo.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Wapons.StoepsisYoYo.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/StoepsisYoYo.cs" line="20" column="22" bodyfile="Items/Wapons/StoepsisYoYo.cs" bodystart="20" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9f6b67481bb3036b0c354b32105c5199" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool OmniMod.Items.Wapons.StoepsisYoYo.AllowPrefix</definition>
+        <argsstring>(int pre)</argsstring>
+        <name>AllowPrefix</name>
+        <qualifiedname>OmniMod.Items.Wapons.StoepsisYoYo.AllowPrefix</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/StoepsisYoYo.cs" line="48" column="22" bodyfile="Items/Wapons/StoepsisYoYo.cs" bodystart="48" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a387e3f69ee0aba2fba051a5f3acfda7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.StoepsisYoYo.MeleeEffects</definition>
+        <argsstring>(Player player, Rectangle hitbox)</argsstring>
+        <name>MeleeEffects</name>
+        <qualifiedname>OmniMod.Items.Wapons.StoepsisYoYo.MeleeEffects</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>hitbox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/StoepsisYoYo.cs" line="66" column="22" bodyfile="Items/Wapons/StoepsisYoYo.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9484bf9d8c7ab607b7f9f31f25cbe6db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Wapons.StoepsisYoYo.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Wapons.StoepsisYoYo.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Wapons/StoepsisYoYo.cs" line="73" column="22" bodyfile="Items/Wapons/StoepsisYoYo.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Wapons.StoepsisYoYo</label>
+        <link refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Wapons.StoepsisYoYo</label>
+        <link refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Wapons/StoepsisYoYo.cs" line="11" column="7" bodyfile="Items/Wapons/StoepsisYoYo.cs" bodystart="11" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9484bf9d8c7ab607b7f9f31f25cbe6db" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::StoepsisYoYo</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9f6b67481bb3036b0c354b32105c5199" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::StoepsisYoYo</scope><name>AllowPrefix</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a387e3f69ee0aba2fba051a5f3acfda7a" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::StoepsisYoYo</scope><name>MeleeEffects</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a28bbe6e684b0c8a01ba587f3f08ce89e" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::StoepsisYoYo</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a2aa5605acf48fb16f303dc283d9bb6b3" prot="public" virt="non-virtual"><scope>OmniMod::Items::Wapons::StoepsisYoYo</scope><name>SetStaticDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9ec87909a5d8265e3e1b4fee9b0de716" prot="private" virt="non-virtual"><scope>OmniMod::Items::Wapons::StoepsisYoYo</scope><name>unwantedPrefixes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

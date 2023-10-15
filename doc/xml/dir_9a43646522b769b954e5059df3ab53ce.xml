@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_9a43646522b769b954e5059df3ab53ce" kind="dir">
+    <compoundname>Items/Consumable</compoundname>
+    <innerfile refid="_defense_buff_potion_8cs">DefenseBuffPotion.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Consumable/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="de">
+  <compound refid="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble" kind="class"><name>OmniMod::Items::Dusts::Bubble</name>
+    <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble_1aa5c957a41aa507e7faeb430b51f5486d" kind="function"><name>OnSpawn</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble_1a09758f03ab5c5460b79ebebbe1ea91bf" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c" kind="class"><name>OmniMod::Players::Npc::BuffImmuneGlobalNPC</name>
+    <member refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1a9c8d7d7a94010ef69e8b9b34d8f448ab" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1adb6be80a65f0b37fa534b8208b8f6360" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_npc_1_1_buff_immune_global_n_p_c_1a5a8cdf7c1c46489faafe1e860c0916b1" kind="function"><name>SetDefenseDebuffStaticDefaults</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo" kind="class"><name>OmniMod::Items::Wapons::Bull3tYoYo</name>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1a879465e39d166705893ba2b207518329" kind="variable"><name>unwantedPrefixes</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1af01a4744cd3cea9f77a236c6de569406" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1afdd4a6b4e8fa7cdf26e1edb53e8b93b6" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1ab94eee4028035114cce05830cae02613" kind="function"><name>AllowPrefix</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1ab8f0cd45d0a0d6ddd02d90d38b1385f3" kind="function"><name>MeleeEffects</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo_1addb560d4ea0c3734468794cd637f652a" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_bull3t_yo_yo_projectile" kind="class"><name>OmniMod::Items::Projectiles::Bull3tYoYoProjectile</name>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_bull3t_yo_yo_projectile_1a9388599757dd8b83c6d9b9d57d73df61" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_bull3t_yo_yo_projectile_1a7fc2b8ae004beb14bf1635f071baec66" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_bull3t_yo_yo_projectile_1a705689d6314d1b5daec9d45f59a18492" kind="function"><name>PostAI</name></member>
+  </compound>
+  <compound refid="class_omni_1_1_players_1_1_npc_1_1_damage_modification_global_n_p_c" kind="class"><name>Omni::Players::Npc::DamageModificationGlobalNPC</name>
+    <member refid="class_omni_1_1_players_1_1_npc_1_1_damage_modification_global_n_p_c_1af9dd446d336465dc721fc2689284e2c6" kind="property"><name>InstancePerEntity</name></member>
+    <member refid="class_omni_1_1_players_1_1_npc_1_1_damage_modification_global_n_p_c_1a77260e1b52e5e1156d077d11e2620d06" kind="variable"><name>exampleDefenseDebuff</name></member>
+    <member refid="class_omni_1_1_players_1_1_npc_1_1_damage_modification_global_n_p_c_1a55fa03547f97151b1bf0676a88203fab" kind="function"><name>ResetEffects</name></member>
+    <member refid="class_omni_1_1_players_1_1_npc_1_1_damage_modification_global_n_p_c_1a95abdab291bccca0a2a3a812b96ba4da" kind="function"><name>ModifyIncomingHit</name></member>
+    <member refid="class_omni_1_1_players_1_1_npc_1_1_damage_modification_global_n_p_c_1a2767c2e4e13620619cad69cce00a7f70" kind="function"><name>DrawEffects</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_players_1_1_damage_modification_player" kind="class"><name>OmniMod::Players::DamageModificationPlayer</name>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a23751d756a220c2aa5a87081367f483b" kind="variable"><name>AdditiveCritDamageBonus</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a636102d153a5375811d2ae4fb6c1aeda" kind="variable"><name>exampleDodge</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1ac29a272356d05b07c2233250bd0f9d10" kind="variable"><name>exampleDodgeCooldown</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a11725defdabca0d2483a9e15742500ee" kind="variable"><name>exampleDodgeVisualCounter</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a49760e4467bbd5e5ae9d691f206c4c8c" kind="variable"><name>hasAbsorbTeamDamageEffect</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a485f6392dfc91907c9fb457f1f8cd154" kind="variable"><name>defendedByAbsorbTeamDamageEffect</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a47e89e338176192eb8cfcb5b8d938849" kind="variable"><name>exampleDefenseDebuff</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1acc52e04bf5c45dd656d3b3efe98f0c6d" kind="function"><name>PreUpdate</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a5b2b4ea5ef1817ffa2896e302b4a1bff" kind="function"><name>ResetEffects</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6449cdf434c2bcd09aca3b40e36c4175" kind="function"><name>ModifyHitNPC</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6882af1f53e9f8a12a32d6a78c86ef67" kind="function"><name>DrawEffects</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a465b264a01c890782a0cef15bf20d59c" kind="function"><name>ConsumableDodge</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1af9fdafc4c05439fbed39dda008e1ff38" kind="function"><name>ExampleDodgeEffects</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a79dec7322601fcfe292d85992f4efbec" kind="function"><name>OnHurt</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1ad4ab4c51696ce7659d2d772d405422fe" kind="function"><name>HandleExampleDodgeMessage</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6b31bc4fbe1dd69807e9009a0a24f840" kind="function"><name>TeammateCanAbsorbDamage</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a2e942d5809d2c82c8b98bf382d01c419" kind="function"><name>IsAbleToAbsorbDamageForTeammate</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1ad1d65c5d608c9572af13651acc107b72" kind="function"><name>IsClosestShieldWearerInRange</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_buffs_1_1_defense_buff" kind="class"><name>OmniMod::Buffs::DefenseBuff</name>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a6d5091410c56b68f476b7f9bffcd56a5" kind="variable"><name>mSpeed</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a2ef39783728906cea7c1db6a846b99e1" kind="variable"><name>lRegen</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a3470f0e5f3b2031f04655fe42cf2b1c6" kind="variable"><name>mBrath</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a348d22ea8116eb8708a9691891705552" kind="variable"><name>brath</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a04f72b93dc19559771b9c2f9322b0413" kind="variable"><name>DefenseBonus</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a25c98b6da05ff8b3075f75c480d1631f" kind="property"><name>Description</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1ab5d878e478a1015661e4b50cfa0463de" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion" kind="class"><name>OmniMod::Items::Consumable::DefenseBuffPotion</name>
+    <member refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1ae749e533ed9828d7889a651e6627d8be" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1a378a5ebd1680a3dd1d9f7857ebd2f46f" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1a322c24ccffbcc44f63a4690258a0189a" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_buffs_1_1_defense_debuff" kind="class"><name>OmniMod::Buffs::DefenseDebuff</name>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_debuff_1a3e0b7890a79e103c91f9810216188199" kind="variable"><name>DefenseReductionPercent</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_debuff_1a710e077f1127dd764f2581fc760b4abd" kind="variable"><name>DefenseMultiplier</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_debuff_1ae75d166783eaca02a7405b8b946da758" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_debuff_1a429bab70c3c985bae3cd6050f2e49c8b" kind="function"><name>Update</name></member>
+    <member refid="class_omni_mod_1_1_buffs_1_1_defense_debuff_1aedd5ae9b5342121bc262a64bfec8149b" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_players_1_1_luck_player" kind="class"><name>OmniMod::Players::LuckPlayer</name>
+    <member refid="class_omni_mod_1_1_players_1_1_luck_player_1ac86f49aeb093c61fe9604be3037b49c2" kind="function"><name>ModifyLuck</name></member>
+    <member refid="class_omni_mod_1_1_players_1_1_luck_player_1aeadf0ba91a8eb3334928358269bbe809" kind="function"><name>PreModifyLuck</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe" kind="class"><name>OmniMod::Items::Tools::OmniAxe</name>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1a95a67d8c5f7bcf971c76d18b2b8281ca" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1a0f3431932bcce1c7a1b87cd0591c238e" kind="function"><name>MeleeEffects</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_axe_1aa82d9d9924f5b8916bfa0e471764f7ee" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_bench" kind="class"><name>OmniMod::Items::Placeable::OmniBench</name>
+    <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_bench_1abcf23152b6b1059b3492b049433d2d69" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_bench_1ae43345c4de435f403d63d13092bb52fb" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_tiles_1_1_omni_bench" kind="class"><name>OmniMod::Tiles::OmniBench</name>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_bench_1a6447a0a47ffca3a3d0cd32a843be7634" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_bench_1adc5f4a6166adceb1be924c4acd9961eb" kind="function"><name>NumDust</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_block" kind="class"><name>OmniMod::Items::Placeable::OmniBlock</name>
+    <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_block_1a6af7a30bd959120a39096cd40bd32c46" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_block_1ab6e495a0d012d7205c31ec095b3900a8" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_block_1a4a45617e9733a0b877274e772b007d3f" kind="function"><name>AddRecipes</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_block_1a20153895863aa7f5fc19f05ebb538af2" kind="function"><name>ExtractinatorUse</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_tiles_1_1_omni_block" kind="class"><name>OmniMod::Tiles::OmniBlock</name>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_block_1af58afb5fa772ffb25ec29ff6cf34d806" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_block_1aa9d1208dda4d673d6580cb619e9e9852" kind="function"><name>NumDust</name></member>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_block_1a5437dd70dcf4af0483c1fdc7d977be6a" kind="function"><name>ChangeWaterfallStyle</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill" kind="class"><name>OmniMod::Items::Tools::OmniDrill</name>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1a8ad0b0aca03466b346b5cdc000f97358" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1acf08db6fd125733cdf4053c13cc2841e" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_drill_1a2296abfcb649db7611912469b3c1760e" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile" kind="class"><name>OmniMod::Items::Projectiles::OmniDrillProjectile</name>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a83ec0c172aba51e476b92a78bc38e0f0" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a93cf2e989d8062c0bc0248c1505e5610" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a4a24b8ca66ec1821712166a24c5cc118" kind="function"><name>AI</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_omni_mod" kind="class"><name>OmniMod::OmniMod</name>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore" kind="class"><name>OmniMod::Items::Placeable::OmniOre</name>
+    <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore_1a023b9a46e9218376de49bf21dee07906" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore_1af91e705849132235e5c6006383fbaabf" kind="function"><name>SetDefaults</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_tiles_1_1_omni_ore" kind="class"><name>OmniMod::Tiles::OmniOre</name>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_1a046bf73d4c81a4f907ff59fa22b7355a" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_1aca93eede2a6a3822eba2b0a5af86a3b9" kind="function"><name>IsTileBiomeSightable</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_tiles_1_1_omni_ore_pass" kind="class"><name>OmniMod::Tiles::OmniOrePass</name>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_pass_1a4c66ed32664f987ee91cb5ad66599938" kind="function"><name>OmniOrePass</name></member>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_pass_1ab307e95f1777a996b2cbcefb29e6ed92" kind="function"><name>ApplyPass</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system" kind="class"><name>OmniMod::Tiles::OmniOreSystem</name>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1aff9255892295ce4f2784dd3d77293f8b" kind="property"><name>OmniOrePassMessage</name></member>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1a6e903db5492c4e3730a71c2d1e74912f" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1a68121a911061ea8affcc64a935203744" kind="function"><name>ModifyWorldGenTasks</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii" kind="class"><name>OmniMod::Items::Tools::OmniPii</name>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1a19b88b5db6b8060c6947cc612c9e4563" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1a5810ecebaa69514b854399438fd022df" kind="function"><name>MeleeEffects</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1afebbac6f023bece2cbce7f1c1b15ccd9" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword" kind="class"><name>OmniMod::Items::Wapons::OmniSword</name>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword_1a765b3e2f9ef310c8d48e98065f87aed2" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword_1a17326fa1975e0c9433227e980c636e8c" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_wapons_1_1_shooting_star" kind="class"><name>OmniMod::Items::Wapons::ShootingStar</name>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_shooting_star_1a682418f43794cb42e8081a686cc2d804" kind="variable"><name>ProCount</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_shooting_star_1a0abbe651d74df9a190e2b45b28ccf044" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_shooting_star_1a23ef4ce3f89f852b4a729b5b7ed14564" kind="function"><name>Shoot</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_shooting_star_1a1362af1f015182a566a0ea85fca76cd6" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle" kind="class"><name>OmniMod::Items::Dusts::Sparkle</name>
+    <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle_1a5f343c5a5a71b1a28f86db275f853789" kind="function"><name>OnSpawn</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle_1acc3888a000d1c0f6fa2a34326347f2f5" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_dusts_1_1_star_one" kind="class"><name>OmniMod::Items::Dusts::StarOne</name>
+    <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_star_one_1a3e9daa0bd573362574a606f414a256b6" kind="function"><name>OnSpawn</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_star_one_1a710f659910c9be7c36a9b23351e05dd5" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo" kind="class"><name>OmniMod::Items::Wapons::StoepsisYoYo</name>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9ec87909a5d8265e3e1b4fee9b0de716" kind="variable"><name>unwantedPrefixes</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a2aa5605acf48fb16f303dc283d9bb6b3" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a28bbe6e684b0c8a01ba587f3f08ce89e" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9f6b67481bb3036b0c354b32105c5199" kind="function"><name>AllowPrefix</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a387e3f69ee0aba2fba051a5f3acfda7a" kind="function"><name>MeleeEffects</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo_1a9484bf9d8c7ab607b7f9f31f25cbe6db" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_stoepsis_yo_yo_projectile" kind="class"><name>OmniMod::Items::Projectiles::StoepsisYoYoProjectile</name>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_stoepsis_yo_yo_projectile_1a0fa590c4b0eaae7605c92715a5642dcb" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_stoepsis_yo_yo_projectile_1a682c33a396e16948d44f1f7f68b66468" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_stoepsis_yo_yo_projectile_1a174b6da576dde8a1345d4ae2266878a6" kind="function"><name>PostAI</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust" kind="class"><name>OmniMod::Items::Armor::ThomysBrust</name>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ab295f46567caf813612dc6de9b8adc1b" kind="variable"><name>MaxManaIncrease</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1a6ed4f7217cf0ce7396410692c4f22def" kind="variable"><name>MaxMinionIncrease</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ade2bdd45ad4c0f56a92445eb58f63a8f" kind="variable"><name>MaxLifeIncrease</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1aae14e1ee0186f1acbc446ee0c1fba397" kind="property"><name>Tooltip</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1af3c8d4340bb3ea1e3de8dffd922da60d" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1a0c62f5115df910deef2ded04e5ed88a6" kind="function"><name>UpdateEquip</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ac45a645fe8d252ec97e8061cf5ca0610" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm" kind="class"><name>OmniMod::Items::Armor::ThomysHelm</name>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a685fa7365a134e4222d2780ccbfbbd0e" kind="variable"><name>AdditiveGenericDamageBonus</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1adc846ef07700cd2582d2785b25214535" kind="property"><name>SetBonusText</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1aadbeed0e926e01b2a79cb3341f93e114" kind="function"><name>SetStaticDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1ab22ca22d0e392865ec0f3fd4b60ee99c" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a94ff8983402838e7ec0723599a254155" kind="function"><name>IsArmorSet</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a6b820c21fee0ba5ee4d84e199d1b24d0" kind="function"><name>UpdateArmorSet</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1ad3e13e47833e369f283ecceb4e9c0ccc" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose" kind="class"><name>OmniMod::Items::Armor::ThomysHose</name>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a738f1a2919849644ad4b6f215d4b8fb3" kind="variable"><name>MoveSpeedBonus</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a50d0281bf5a594a0fbe8846c78ee58b3" kind="property"><name>Tooltip</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1aeb3ed429167e195962ba47ba07a63e22" kind="function"><name>SetDefaults</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a69494a54edafd9dc40f86d892ae293b7" kind="function"><name>UpdateEquip</name></member>
+    <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_hose_1a1ae4f9d354e6534ed2cc5af723304060" kind="function"><name>AddRecipes</name></member>
+  </compound>
+  <compound refid="class_omni_mod_1_1_bioms_1_1_waterfall_style" kind="class"><name>OmniMod::Bioms::WaterfallStyle</name>
+    <member refid="class_omni_mod_1_1_bioms_1_1_waterfall_style_1a22de88a80c8817ac703aa83a3ca5ca10" kind="function"><name>AddLight</name></member>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_xna_1_1_framework" kind="namespace"><name>Microsoft::Xna::Framework</name>
+  </compound>
+  <compound refid="namespace_omni" kind="namespace"><name>Omni</name>
+  </compound>
+  <compound refid="namespace_omni_1_1_players" kind="namespace"><name>Omni::Players</name>
+  </compound>
+  <compound refid="namespace_omni_1_1_players_1_1_npc" kind="namespace"><name>Omni::Players::Npc</name>
+  </compound>
+  <compound refid="namespace_omni_mod" kind="namespace"><name>OmniMod</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_bioms" kind="namespace"><name>OmniMod::Bioms</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_buffs" kind="namespace"><name>OmniMod::Buffs</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_items" kind="namespace"><name>OmniMod::Items</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_items_1_1_armor" kind="namespace"><name>OmniMod::Items::Armor</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_items_1_1_consumable" kind="namespace"><name>OmniMod::Items::Consumable</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_items_1_1_dusts" kind="namespace"><name>OmniMod::Items::Dusts</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_items_1_1_placeable" kind="namespace"><name>OmniMod::Items::Placeable</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_items_1_1_projectiles" kind="namespace"><name>OmniMod::Items::Projectiles</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_items_1_1_tools" kind="namespace"><name>OmniMod::Items::Tools</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_items_1_1_wapons" kind="namespace"><name>OmniMod::Items::Wapons</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_players" kind="namespace"><name>OmniMod::Players</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_players_1_1_npc" kind="namespace"><name>OmniMod::Players::Npc</name>
+  </compound>
+  <compound refid="namespace_omni_mod_1_1_tiles" kind="namespace"><name>OmniMod::Tiles</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_terraria" kind="namespace"><name>Terraria</name>
+  </compound>
+  <compound refid="namespace_terraria_1_1_audio" kind="namespace"><name>Terraria::Audio</name>
+  </compound>
+  <compound refid="namespace_terraria_1_1_data_structures" kind="namespace"><name>Terraria::DataStructures</name>
+  </compound>
+  <compound refid="namespace_terraria_1_1_i_d" kind="namespace"><name>Terraria::ID</name>
+  </compound>
+  <compound refid="namespace_terraria_1_1_i_o" kind="namespace"><name>Terraria::IO</name>
+  </compound>
+  <compound refid="namespace_terraria_1_1_localization" kind="namespace"><name>Terraria::Localization</name>
+  </compound>
+  <compound refid="namespace_terraria_1_1_mod_loader" kind="namespace"><name>Terraria::ModLoader</name>
+  </compound>
+  <compound refid="namespace_terraria_1_1_object_data" kind="namespace"><name>Terraria::ObjectData</name>
+  </compound>
+  <compound refid="namespace_terraria_1_1_world_building" kind="namespace"><name>Terraria::WorldBuilding</name>
+  </compound>
+  <compound refid="_waterfall_style_8cs" kind="file"><name>WaterfallStyle.cs</name>
+  </compound>
+  <compound refid="_defense_buff_8cs" kind="file"><name>DefenseBuff.cs</name>
+  </compound>
+  <compound refid="_defense_debuff_8cs" kind="file"><name>DefenseDebuff.cs</name>
+  </compound>
+  <compound refid="_thomys_brust_8cs" kind="file"><name>ThomysBrust.cs</name>
+  </compound>
+  <compound refid="_thomys_helm_8cs" kind="file"><name>ThomysHelm.cs</name>
+  </compound>
+  <compound refid="_thomys_hose_8cs" kind="file"><name>ThomysHose.cs</name>
+  </compound>
+  <compound refid="_defense_buff_potion_8cs" kind="file"><name>DefenseBuffPotion.cs</name>
+  </compound>
+  <compound refid="_bubble_8cs" kind="file"><name>Bubble.cs</name>
+  </compound>
+  <compound refid="_sparkle_8cs" kind="file"><name>Sparkle.cs</name>
+  </compound>
+  <compound refid="_star_one_8cs" kind="file"><name>StarOne.cs</name>
+  </compound>
+  <compound refid="_items_2_placeable_2_omni_bench_8cs" kind="file"><name>OmniBench.cs</name>
+  </compound>
+  <compound refid="_tiles_2_omni_bench_8cs" kind="file"><name>OmniBench.cs</name>
+  </compound>
+  <compound refid="_items_2_placeable_2_omni_block_8cs" kind="file"><name>OmniBlock.cs</name>
+  </compound>
+  <compound refid="_tiles_2_omni_block_8cs" kind="file"><name>OmniBlock.cs</name>
+  </compound>
+  <compound refid="_items_2_placeable_2_omni_ore_8cs" kind="file"><name>OmniOre.cs</name>
+  </compound>
+  <compound refid="_tiles_2_omni_ore_8cs" kind="file"><name>OmniOre.cs</name>
+  </compound>
+  <compound refid="_bull3t_yo_yo_projectile_8cs" kind="file"><name>Bull3tYoYoProjectile.cs</name>
+  </compound>
+  <compound refid="_omni_drill_projectile_8cs" kind="file"><name>OmniDrillProjectile.cs</name>
+  </compound>
+  <compound refid="_stoepsis_yo_yo_projectile_8cs" kind="file"><name>StoepsisYoYoProjectile.cs</name>
+  </compound>
+  <compound refid="_omni_axe_8cs" kind="file"><name>OmniAxe.cs</name>
+  </compound>
+  <compound refid="_omni_drill_8cs" kind="file"><name>OmniDrill.cs</name>
+  </compound>
+  <compound refid="_omni_pii_8cs" kind="file"><name>OmniPii.cs</name>
+  </compound>
+  <compound refid="_bull3t_yo_yo_8cs" kind="file"><name>Bull3tYoYo.cs</name>
+  </compound>
+  <compound refid="_omni_sword_8cs" kind="file"><name>OmniSword.cs</name>
+  </compound>
+  <compound refid="_shooting_star_8cs" kind="file"><name>ShootingStar.cs</name>
+  </compound>
+  <compound refid="_stoepsis_yo_yo_8cs" kind="file"><name>StoepsisYoYo.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_omni_mod_8_assembly_info_8cs" kind="file"><name>OmniMod.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_omni_mod_8cs" kind="file"><name>OmniMod.cs</name>
+  </compound>
+  <compound refid="_damage_modification_player_8cs" kind="file"><name>DamageModificationPlayer.cs</name>
+  </compound>
+  <compound refid="_luck_player_8cs" kind="file"><name>LuckPlayer.cs</name>
+  </compound>
+  <compound refid="_buff_immune_global_n_p_c_8cs" kind="file"><name>BuffImmuneGlobalNPC.cs</name>
+  </compound>
+  <compound refid="_damage_modification_global_n_p_c_8cs" kind="file"><name>DamageModificationGlobalNPC.cs</name>
+  </compound>
+  <compound refid="dir_594c9cccfe4b7ac3d3a545178db42af8" kind="dir"><name>Items/Armor</name>
+  </compound>
+  <compound refid="dir_d1170db563a6de03518c2b092b136580" kind="dir"><name>Bioms</name>
+  </compound>
+  <compound refid="dir_7659145a650cec1d1184ce80a90e2b9d" kind="dir"><name>Buffs</name>
+  </compound>
+  <compound refid="dir_9a43646522b769b954e5059df3ab53ce" kind="dir"><name>Items/Consumable</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_660410a77e1c21c3c2c76215f137d33b" kind="dir"><name>Items/Dusts</name>
+  </compound>
+  <compound refid="dir_7d02ce0627a9d08bc7415ddf5065332d" kind="dir"><name>Items</name>
+  </compound>
+  <compound refid="dir_7212c827820ef56532d3599ed27e3aff" kind="dir"><name>obj/Debug/net6.0</name>
+  </compound>
+  <compound refid="dir_a718a44afb5841ae516f9e672382cb77" kind="dir"><name>Players/Npc</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_0dd717dbee56cbd85fa604b22c8ca428" kind="dir"><name>Items/Placeable</name>
+  </compound>
+  <compound refid="dir_d80ca74231b0e919869f7db56f3b4758" kind="dir"><name>Players</name>
+  </compound>
+  <compound refid="dir_01d09ab879707df984a29d85baaa98a5" kind="dir"><name>Items/Projectiles</name>
+  </compound>
+  <compound refid="dir_8d9dbd953f0f9e8d5bb4e7983a7538d3" kind="dir"><name>Tiles</name>
+  </compound>
+  <compound refid="dir_b1409b24683217ecbef66cff5b794cc7" kind="dir"><name>Items/Tools</name>
+  </compound>
+  <compound refid="dir_be20d2970f6586618bd8c5ea361d56f5" kind="dir"><name>Items/Wapons</name>
+  </compound>
+</doxygenindex>

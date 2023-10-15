@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Dusts::Sparkle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModDust</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle_1a5f343c5a5a71b1a28f86db275f853789" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Dusts.Sparkle.OnSpawn</definition>
+        <argsstring>(Dust dust)</argsstring>
+        <name>OnSpawn</name>
+        <qualifiedname>OmniMod.Items.Dusts.Sparkle.OnSpawn</qualifiedname>
+        <param>
+          <type>Dust</type>
+          <declname>dust</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Dusts/Sparkle.cs" line="9" column="22" bodyfile="Items/Dusts/Sparkle.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle_1acc3888a000d1c0f6fa2a34326347f2f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool OmniMod.Items.Dusts.Sparkle.Update</definition>
+        <argsstring>(Dust dust)</argsstring>
+        <name>Update</name>
+        <qualifiedname>OmniMod.Items.Dusts.Sparkle.Update</qualifiedname>
+        <param>
+          <type>Dust</type>
+          <declname>dust</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Dusts/Sparkle.cs" line="16" column="22" bodyfile="Items/Dusts/Sparkle.cs" bodystart="16" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModDust</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Dusts.Sparkle</label>
+        <link refid="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModDust</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Dusts.Sparkle</label>
+        <link refid="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Dusts/Sparkle.cs" line="7" column="11" bodyfile="Items/Dusts/Sparkle.cs" bodystart="8" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle_1a5f343c5a5a71b1a28f86db275f853789" prot="public" virt="non-virtual"><scope>OmniMod::Items::Dusts::Sparkle</scope><name>OnSpawn</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle_1acc3888a000d1c0f6fa2a34326347f2f5" prot="public" virt="non-virtual"><scope>OmniMod::Items::Dusts::Sparkle</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

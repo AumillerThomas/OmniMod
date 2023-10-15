@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_buffs" kind="namespace" language="C#">
+    <compoundname>OmniMod::Buffs</compoundname>
+    <innerclass refid="class_omni_mod_1_1_buffs_1_1_defense_buff" prot="public">OmniMod::Buffs::DefenseBuff</innerclass>
+    <innerclass refid="class_omni_mod_1_1_buffs_1_1_defense_debuff" prot="public">OmniMod::Buffs::DefenseDebuff</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Buffs/DefenseBuff.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

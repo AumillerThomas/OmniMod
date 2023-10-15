@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Consumable::DefenseBuffPotion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1ae749e533ed9828d7889a651e6627d8be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Consumable.DefenseBuffPotion.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Items.Consumable.DefenseBuffPotion.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Consumable/DefenseBuffPotion.cs" line="11" column="30" bodyfile="Items/Consumable/DefenseBuffPotion.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1a378a5ebd1680a3dd1d9f7857ebd2f46f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Consumable.DefenseBuffPotion.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Consumable.DefenseBuffPotion.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Consumable/DefenseBuffPotion.cs" line="22" column="22" bodyfile="Items/Consumable/DefenseBuffPotion.cs" bodystart="22" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1a322c24ccffbcc44f63a4690258a0189a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Consumable.DefenseBuffPotion.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Consumable.DefenseBuffPotion.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Consumable/DefenseBuffPotion.cs" line="38" column="22" bodyfile="Items/Consumable/DefenseBuffPotion.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Consumable.DefenseBuffPotion</label>
+        <link refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Consumable.DefenseBuffPotion</label>
+        <link refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Consumable/DefenseBuffPotion.cs" line="9" column="11" bodyfile="Items/Consumable/DefenseBuffPotion.cs" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1a322c24ccffbcc44f63a4690258a0189a" prot="public" virt="non-virtual"><scope>OmniMod::Items::Consumable::DefenseBuffPotion</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1a378a5ebd1680a3dd1d9f7857ebd2f46f" prot="public" virt="non-virtual"><scope>OmniMod::Items::Consumable::DefenseBuffPotion</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion_1ae749e533ed9828d7889a651e6627d8be" prot="public" virt="non-virtual"><scope>OmniMod::Items::Consumable::DefenseBuffPotion</scope><name>SetStaticDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

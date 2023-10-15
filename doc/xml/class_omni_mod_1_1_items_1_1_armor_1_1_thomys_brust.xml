@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Armor::ThomysBrust</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ab295f46567caf813612dc6de9b8adc1b" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int OmniMod.Items.Armor.ThomysBrust.MaxManaIncrease</definition>
+        <argsstring></argsstring>
+        <name>MaxManaIncrease</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysBrust.MaxManaIncrease</qualifiedname>
+        <initializer>= 60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysBrust.cs" line="9" column="27" bodyfile="Items/Armor/ThomysBrust.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1a6ed4f7217cf0ce7396410692c4f22def" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int OmniMod.Items.Armor.ThomysBrust.MaxMinionIncrease</definition>
+        <argsstring></argsstring>
+        <name>MaxMinionIncrease</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysBrust.MaxMinionIncrease</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysBrust.cs" line="10" column="19" bodyfile="Items/Armor/ThomysBrust.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ade2bdd45ad4c0f56a92445eb58f63a8f" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int OmniMod.Items.Armor.ThomysBrust.MaxLifeIncrease</definition>
+        <argsstring></argsstring>
+        <name>MaxLifeIncrease</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysBrust.MaxLifeIncrease</qualifiedname>
+        <initializer>= 40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysBrust.cs" line="11" column="19" bodyfile="Items/Armor/ThomysBrust.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1aae14e1ee0186f1acbc446ee0c1fba397" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override LocalizedText</type>
+        <definition>override LocalizedText OmniMod.Items.Armor.ThomysBrust.Tooltip</definition>
+        <argsstring></argsstring>
+        <name>Tooltip</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysBrust.Tooltip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysBrust.cs" line="13" column="31" bodyfile="Items/Armor/ThomysBrust.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1af3c8d4340bb3ea1e3de8dffd922da60d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysBrust.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysBrust.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysBrust.cs" line="15" column="22" bodyfile="Items/Armor/ThomysBrust.cs" bodystart="15" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1a0c62f5115df910deef2ded04e5ed88a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysBrust.UpdateEquip</definition>
+        <argsstring>(Player player)</argsstring>
+        <name>UpdateEquip</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysBrust.UpdateEquip</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysBrust.cs" line="23" column="22" bodyfile="Items/Armor/ThomysBrust.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ac45a645fe8d252ec97e8061cf5ca0610" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysBrust.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysBrust.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysBrust.cs" line="32" column="22" bodyfile="Items/Armor/ThomysBrust.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Armor.ThomysBrust</label>
+        <link refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Armor.ThomysBrust</label>
+        <link refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Armor/ThomysBrust.cs" line="8" column="11" bodyfile="Items/Armor/ThomysBrust.cs" bodystart="8" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ac45a645fe8d252ec97e8061cf5ca0610" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysBrust</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ade2bdd45ad4c0f56a92445eb58f63a8f" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysBrust</scope><name>MaxLifeIncrease</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1ab295f46567caf813612dc6de9b8adc1b" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysBrust</scope><name>MaxManaIncrease</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1a6ed4f7217cf0ce7396410692c4f22def" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysBrust</scope><name>MaxMinionIncrease</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1af3c8d4340bb3ea1e3de8dffd922da60d" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysBrust</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1aae14e1ee0186f1acbc446ee0c1fba397" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysBrust</scope><name>Tooltip</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_brust_1a0c62f5115df910deef2ded04e5ed88a6" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysBrust</scope><name>UpdateEquip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

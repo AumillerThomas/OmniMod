@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_01d09ab879707df984a29d85baaa98a5" kind="dir">
+    <compoundname>Items/Projectiles</compoundname>
+    <innerfile refid="_bull3t_yo_yo_projectile_8cs">Bull3tYoYoProjectile.cs</innerfile>
+    <innerfile refid="_omni_drill_projectile_8cs">OmniDrillProjectile.cs</innerfile>
+    <innerfile refid="_stoepsis_yo_yo_projectile_8cs">StoepsisYoYoProjectile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Projectiles/"/>
+  </compounddef>
+</doxygen>

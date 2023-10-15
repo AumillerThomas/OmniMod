@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_b1409b24683217ecbef66cff5b794cc7" kind="dir">
+    <compoundname>Items/Tools</compoundname>
+    <innerfile refid="_omni_axe_8cs">OmniAxe.cs</innerfile>
+    <innerfile refid="_omni_drill_8cs">OmniDrill.cs</innerfile>
+    <innerfile refid="_omni_pii_8cs">OmniPii.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Tools/"/>
+  </compounddef>
+</doxygen>

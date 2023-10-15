@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Dusts::Bubble</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModDust</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble_1aa5c957a41aa507e7faeb430b51f5486d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Dusts.Bubble.OnSpawn</definition>
+        <argsstring>(Dust dust)</argsstring>
+        <name>OnSpawn</name>
+        <qualifiedname>OmniMod.Items.Dusts.Bubble.OnSpawn</qualifiedname>
+        <param>
+          <type>Dust</type>
+          <declname>dust</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Dusts/Bubble.cs" line="10" column="22" bodyfile="Items/Dusts/Bubble.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble_1a09758f03ab5c5460b79ebebbe1ea91bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool OmniMod.Items.Dusts.Bubble.Update</definition>
+        <argsstring>(Dust dust)</argsstring>
+        <name>Update</name>
+        <qualifiedname>OmniMod.Items.Dusts.Bubble.Update</qualifiedname>
+        <param>
+          <type>Dust</type>
+          <declname>dust</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Dusts/Bubble.cs" line="17" column="22" bodyfile="Items/Dusts/Bubble.cs" bodystart="17" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModDust</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Dusts.Bubble</label>
+        <link refid="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModDust</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Dusts.Bubble</label>
+        <link refid="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Dusts/Bubble.cs" line="7" column="11" bodyfile="Items/Dusts/Bubble.cs" bodystart="7" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble_1aa5c957a41aa507e7faeb430b51f5486d" prot="public" virt="non-virtual"><scope>OmniMod::Items::Dusts::Bubble</scope><name>OnSpawn</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble_1a09758f03ab5c5460b79ebebbe1ea91bf" prot="public" virt="non-virtual"><scope>OmniMod::Items::Dusts::Bubble</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

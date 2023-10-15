@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_8d9dbd953f0f9e8d5bb4e7983a7538d3" kind="dir">
+    <compoundname>Tiles</compoundname>
+    <innerfile refid="_tiles_2_omni_bench_8cs">OmniBench.cs</innerfile>
+    <innerfile refid="_tiles_2_omni_block_8cs">OmniBlock.cs</innerfile>
+    <innerfile refid="_tiles_2_omni_ore_8cs">OmniOre.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tiles/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_tiles_1_1_omni_ore" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Tiles::OmniOre</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModTile</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_tiles_1_1_omni_ore_1a046bf73d4c81a4f907ff59fa22b7355a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Tiles.OmniOre.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Tiles.OmniOre.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniOre.cs" line="16" column="30" bodyfile="Tiles/OmniOre.cs" bodystart="16" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_tiles_1_1_omni_ore_1aca93eede2a6a3822eba2b0a5af86a3b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool OmniMod.Tiles.OmniOre.IsTileBiomeSightable</definition>
+        <argsstring>(int i, int j, ref Color sightColor)</argsstring>
+        <name>IsTileBiomeSightable</name>
+        <qualifiedname>OmniMod.Tiles.OmniOre.IsTileBiomeSightable</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>ref Color</type>
+          <declname>sightColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniOre.cs" line="38" column="22" bodyfile="Tiles/OmniOre.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModTile</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Tiles.OmniOre</label>
+        <link refid="class_omni_mod_1_1_tiles_1_1_omni_ore"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModTile</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Tiles.OmniOre</label>
+        <link refid="class_omni_mod_1_1_tiles_1_1_omni_ore"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tiles/OmniOre.cs" line="13" column="11" bodyfile="Tiles/OmniOre.cs" bodystart="13" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_1aca93eede2a6a3822eba2b0a5af86a3b9" prot="public" virt="non-virtual"><scope>OmniMod::Tiles::OmniOre</scope><name>IsTileBiomeSightable</name></member>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_1a046bf73d4c81a4f907ff59fa22b7355a" prot="public" virt="non-virtual"><scope>OmniMod::Tiles::OmniOre</scope><name>SetStaticDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

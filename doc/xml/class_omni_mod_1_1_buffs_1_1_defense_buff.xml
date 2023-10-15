@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_buffs_1_1_defense_buff" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Buffs::DefenseBuff</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModBuff</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_omni_mod_1_1_buffs_1_1_defense_buff_1a6d5091410c56b68f476b7f9bffcd56a5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OmniMod.Buffs.DefenseBuff.mSpeed</definition>
+        <argsstring></argsstring>
+        <name>mSpeed</name>
+        <qualifiedname>OmniMod.Buffs.DefenseBuff.mSpeed</qualifiedname>
+        <initializer>= 1.95f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Defens Buff aber nur test </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Buffs/DefenseBuff.cs" line="12" column="15" bodyfile="Buffs/DefenseBuff.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_buffs_1_1_defense_buff_1a2ef39783728906cea7c1db6a846b99e1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OmniMod.Buffs.DefenseBuff.lRegen</definition>
+        <argsstring></argsstring>
+        <name>lRegen</name>
+        <qualifiedname>OmniMod.Buffs.DefenseBuff.lRegen</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Buffs/DefenseBuff.cs" line="13" column="13" bodyfile="Buffs/DefenseBuff.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_buffs_1_1_defense_buff_1a3470f0e5f3b2031f04655fe42cf2b1c6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OmniMod.Buffs.DefenseBuff.mBrath</definition>
+        <argsstring></argsstring>
+        <name>mBrath</name>
+        <qualifiedname>OmniMod.Buffs.DefenseBuff.mBrath</qualifiedname>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Buffs/DefenseBuff.cs" line="14" column="13" bodyfile="Buffs/DefenseBuff.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_buffs_1_1_defense_buff_1a348d22ea8116eb8708a9691891705552" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OmniMod.Buffs.DefenseBuff.brath</definition>
+        <argsstring></argsstring>
+        <name>brath</name>
+        <qualifiedname>OmniMod.Buffs.DefenseBuff.brath</qualifiedname>
+        <initializer>= 900</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Buffs/DefenseBuff.cs" line="15" column="13" bodyfile="Buffs/DefenseBuff.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_omni_mod_1_1_buffs_1_1_defense_buff_1a04f72b93dc19559771b9c2f9322b0413" prot="public" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int OmniMod.Buffs.DefenseBuff.DefenseBonus</definition>
+        <argsstring></argsstring>
+        <name>DefenseBonus</name>
+        <qualifiedname>OmniMod.Buffs.DefenseBuff.DefenseBonus</qualifiedname>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Buffs/DefenseBuff.cs" line="16" column="35" bodyfile="Buffs/DefenseBuff.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_omni_mod_1_1_buffs_1_1_defense_buff_1a25c98b6da05ff8b3075f75c480d1631f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override LocalizedText</type>
+        <definition>override LocalizedText OmniMod.Buffs.DefenseBuff.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>OmniMod.Buffs.DefenseBuff.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Buffs/DefenseBuff.cs" line="18" column="31" bodyfile="Buffs/DefenseBuff.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_buffs_1_1_defense_buff_1ab5d878e478a1015661e4b50cfa0463de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Buffs.DefenseBuff.Update</definition>
+        <argsstring>(Player player, ref int buffIndex)</argsstring>
+        <name>Update</name>
+        <qualifiedname>OmniMod.Buffs.DefenseBuff.Update</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>buffIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>player</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Spieler der Gebuffed wird <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Buff </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Buffs/DefenseBuff.cs" line="24" column="22" bodyfile="Buffs/DefenseBuff.cs" bodystart="24" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModBuff</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Buffs.DefenseBuff</label>
+        <link refid="class_omni_mod_1_1_buffs_1_1_defense_buff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModBuff</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Buffs.DefenseBuff</label>
+        <link refid="class_omni_mod_1_1_buffs_1_1_defense_buff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Buffs/DefenseBuff.cs" line="9" column="11" bodyfile="Buffs/DefenseBuff.cs" bodystart="9" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a348d22ea8116eb8708a9691891705552" prot="private" virt="non-virtual"><scope>OmniMod::Buffs::DefenseBuff</scope><name>brath</name></member>
+      <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a04f72b93dc19559771b9c2f9322b0413" prot="public" virt="non-virtual"><scope>OmniMod::Buffs::DefenseBuff</scope><name>DefenseBonus</name></member>
+      <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a25c98b6da05ff8b3075f75c480d1631f" prot="public" virt="non-virtual"><scope>OmniMod::Buffs::DefenseBuff</scope><name>Description</name></member>
+      <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a2ef39783728906cea7c1db6a846b99e1" prot="private" virt="non-virtual"><scope>OmniMod::Buffs::DefenseBuff</scope><name>lRegen</name></member>
+      <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a3470f0e5f3b2031f04655fe42cf2b1c6" prot="private" virt="non-virtual"><scope>OmniMod::Buffs::DefenseBuff</scope><name>mBrath</name></member>
+      <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1a6d5091410c56b68f476b7f9bffcd56a5" prot="private" virt="non-virtual"><scope>OmniMod::Buffs::DefenseBuff</scope><name>mSpeed</name></member>
+      <member refid="class_omni_mod_1_1_buffs_1_1_defense_buff_1ab5d878e478a1015661e4b50cfa0463de" prot="public" virt="non-virtual"><scope>OmniMod::Buffs::DefenseBuff</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

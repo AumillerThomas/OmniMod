@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Placeable::OmniOre</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore_1a023b9a46e9218376de49bf21dee07906" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Placeable.OmniOre.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Items.Placeable.OmniOre.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Placeable/OmniOre.cs" line="9" column="30" bodyfile="Items/Placeable/OmniOre.cs" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore_1af91e705849132235e5c6006383fbaabf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Placeable.OmniOre.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Placeable.OmniOre.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Placeable/OmniOre.cs" line="18" column="22" bodyfile="Items/Placeable/OmniOre.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Placeable.OmniOre</label>
+        <link refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Placeable.OmniOre</label>
+        <link refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Placeable/OmniOre.cs" line="7" column="11" bodyfile="Items/Placeable/OmniOre.cs" bodystart="7" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore_1af91e705849132235e5c6006383fbaabf" prot="public" virt="non-virtual"><scope>OmniMod::Items::Placeable::OmniOre</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_placeable_1_1_omni_ore_1a023b9a46e9218376de49bf21dee07906" prot="public" virt="non-virtual"><scope>OmniMod::Items::Placeable::OmniOre</scope><name>SetStaticDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_items_1_1_wapons" kind="namespace" language="C#">
+    <compoundname>OmniMod::Items::Wapons</compoundname>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_wapons_1_1_bull3t_yo_yo" prot="public">OmniMod::Items::Wapons::Bull3tYoYo</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_wapons_1_1_omni_sword" prot="public">OmniMod::Items::Wapons::OmniSword</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_wapons_1_1_shooting_star" prot="public">OmniMod::Items::Wapons::ShootingStar</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_wapons_1_1_stoepsis_yo_yo" prot="public">OmniMod::Items::Wapons::StoepsisYoYo</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Wapons/Bull3tYoYo.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

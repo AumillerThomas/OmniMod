@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_items_1_1_consumable" kind="namespace" language="C#">
+    <compoundname>OmniMod::Items::Consumable</compoundname>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_consumable_1_1_defense_buff_potion" prot="public">OmniMod::Items::Consumable::DefenseBuffPotion</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Consumable/DefenseBuffPotion.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Tools::OmniPii</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1a19b88b5db6b8060c6947cc612c9e4563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniPii.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniPii.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniPii.cs" line="10" column="30" bodyfile="Items/Tools/OmniPii.cs" bodystart="10" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1a5810ecebaa69514b854399438fd022df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniPii.MeleeEffects</definition>
+        <argsstring>(Player player, Rectangle hitbox)</argsstring>
+        <name>MeleeEffects</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniPii.MeleeEffects</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>hitbox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniPii.cs" line="28" column="22" bodyfile="Items/Tools/OmniPii.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1afebbac6f023bece2cbce7f1c1b15ccd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Tools.OmniPii.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Tools.OmniPii.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Tools/OmniPii.cs" line="34" column="30" bodyfile="Items/Tools/OmniPii.cs" bodystart="34" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Tools.OmniPii</label>
+        <link refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Tools.OmniPii</label>
+        <link refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Tools/OmniPii.cs" line="9" column="11" bodyfile="Items/Tools/OmniPii.cs" bodystart="9" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1afebbac6f023bece2cbce7f1c1b15ccd9" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniPii</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1a5810ecebaa69514b854399438fd022df" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniPii</scope><name>MeleeEffects</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_tools_1_1_omni_pii_1a19b88b5db6b8060c6947cc612c9e4563" prot="public" virt="non-virtual"><scope>OmniMod::Items::Tools::OmniPii</scope><name>SetDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

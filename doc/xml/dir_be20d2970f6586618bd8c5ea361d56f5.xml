@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_be20d2970f6586618bd8c5ea361d56f5" kind="dir">
+    <compoundname>Items/Wapons</compoundname>
+    <innerfile refid="_bull3t_yo_yo_8cs">Bull3tYoYo.cs</innerfile>
+    <innerfile refid="_omni_sword_8cs">OmniSword.cs</innerfile>
+    <innerfile refid="_shooting_star_8cs">ShootingStar.cs</innerfile>
+    <innerfile refid="_stoepsis_yo_yo_8cs">StoepsisYoYo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Wapons/"/>
+  </compounddef>
+</doxygen>

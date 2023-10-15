@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_0dd717dbee56cbd85fa604b22c8ca428" kind="dir">
+    <compoundname>Items/Placeable</compoundname>
+    <innerfile refid="_items_2_placeable_2_omni_bench_8cs">OmniBench.cs</innerfile>
+    <innerfile refid="_items_2_placeable_2_omni_block_8cs">OmniBlock.cs</innerfile>
+    <innerfile refid="_items_2_placeable_2_omni_ore_8cs">OmniOre.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Placeable/"/>
+  </compounddef>
+</doxygen>

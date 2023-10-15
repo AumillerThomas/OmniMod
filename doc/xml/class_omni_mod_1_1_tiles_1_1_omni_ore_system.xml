@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_tiles_1_1_omni_ore_system" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Tiles::OmniOreSystem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModSystem</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1aff9255892295ce4f2784dd3d77293f8b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>LocalizedText</type>
+        <definition>LocalizedText OmniMod.Tiles.OmniOreSystem.OmniOrePassMessage</definition>
+        <argsstring></argsstring>
+        <name>OmniOrePassMessage</name>
+        <qualifiedname>OmniMod.Tiles.OmniOreSystem.OmniOrePassMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniOre.cs" line="46" column="29" bodyfile="Tiles/OmniOre.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1a6e903db5492c4e3730a71c2d1e74912f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Tiles.OmniOreSystem.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Tiles.OmniOreSystem.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniOre.cs" line="49" column="30" bodyfile="Tiles/OmniOre.cs" bodystart="49" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1a68121a911061ea8affcc64a935203744" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Tiles.OmniOreSystem.ModifyWorldGenTasks</definition>
+        <argsstring>(List&lt; GenPass &gt; tasks, ref double totalWeight)</argsstring>
+        <name>ModifyWorldGenTasks</name>
+        <qualifiedname>OmniMod.Tiles.OmniOreSystem.ModifyWorldGenTasks</qualifiedname>
+        <param>
+          <type>List&lt; GenPass &gt;</type>
+          <declname>tasks</declname>
+        </param>
+        <param>
+          <type>ref double</type>
+          <declname>totalWeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniOre.cs" line="59" column="30" bodyfile="Tiles/OmniOre.cs" bodystart="59" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModSystem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Tiles.OmniOreSystem</label>
+        <link refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModSystem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Tiles.OmniOreSystem</label>
+        <link refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tiles/OmniOre.cs" line="44" column="7" bodyfile="Tiles/OmniOre.cs" bodystart="45" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1a68121a911061ea8affcc64a935203744" prot="public" virt="non-virtual"><scope>OmniMod::Tiles::OmniOreSystem</scope><name>ModifyWorldGenTasks</name></member>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1aff9255892295ce4f2784dd3d77293f8b" prot="public" virt="non-virtual"><scope>OmniMod::Tiles::OmniOreSystem</scope><name>OmniOrePassMessage</name></member>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_system_1a6e903db5492c4e3730a71c2d1e74912f" prot="public" virt="non-virtual"><scope>OmniMod::Tiles::OmniOreSystem</scope><name>SetStaticDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

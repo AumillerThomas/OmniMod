@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Armor::ThomysHelm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModItem</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a685fa7365a134e4222d2780ccbfbbd0e" prot="public" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int OmniMod.Items.Armor.ThomysHelm.AdditiveGenericDamageBonus</definition>
+        <argsstring></argsstring>
+        <name>AdditiveGenericDamageBonus</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHelm.AdditiveGenericDamageBonus</qualifiedname>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHelm.cs" line="9" column="36" bodyfile="Items/Armor/ThomysHelm.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1adc846ef07700cd2582d2785b25214535" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>LocalizedText</type>
+        <definition>LocalizedText OmniMod.Items.Armor.ThomysHelm.SetBonusText</definition>
+        <argsstring></argsstring>
+        <name>SetBonusText</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHelm.SetBonusText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHelm.cs" line="11" column="29" bodyfile="Items/Armor/ThomysHelm.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1aadbeed0e926e01b2a79cb3341f93e114" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysHelm.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHelm.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHelm.cs" line="13" column="22" bodyfile="Items/Armor/ThomysHelm.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1ab22ca22d0e392865ec0f3fd4b60ee99c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysHelm.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHelm.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHelm.cs" line="23" column="22" bodyfile="Items/Armor/ThomysHelm.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a94ff8983402838e7ec0723599a254155" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool OmniMod.Items.Armor.ThomysHelm.IsArmorSet</definition>
+        <argsstring>(Item head, Item body, Item legs)</argsstring>
+        <name>IsArmorSet</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHelm.IsArmorSet</qualifiedname>
+        <param>
+          <type>Item</type>
+          <declname>head</declname>
+        </param>
+        <param>
+          <type>Item</type>
+          <declname>body</declname>
+        </param>
+        <param>
+          <type>Item</type>
+          <declname>legs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHelm.cs" line="32" column="22" bodyfile="Items/Armor/ThomysHelm.cs" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a6b820c21fee0ba5ee4d84e199d1b24d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysHelm.UpdateArmorSet</definition>
+        <argsstring>(Player player)</argsstring>
+        <name>UpdateArmorSet</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHelm.UpdateArmorSet</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHelm.cs" line="37" column="22" bodyfile="Items/Armor/ThomysHelm.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1ad3e13e47833e369f283ecceb4e9c0ccc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Armor.ThomysHelm.AddRecipes</definition>
+        <argsstring>()</argsstring>
+        <name>AddRecipes</name>
+        <qualifiedname>OmniMod.Items.Armor.ThomysHelm.AddRecipes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Armor/ThomysHelm.cs" line="43" column="22" bodyfile="Items/Armor/ThomysHelm.cs" bodystart="43" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Armor.ThomysHelm</label>
+        <link refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModItem</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Armor.ThomysHelm</label>
+        <link refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Armor/ThomysHelm.cs" line="8" column="11" bodyfile="Items/Armor/ThomysHelm.cs" bodystart="8" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a685fa7365a134e4222d2780ccbfbbd0e" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHelm</scope><name>AdditiveGenericDamageBonus</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1ad3e13e47833e369f283ecceb4e9c0ccc" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHelm</scope><name>AddRecipes</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a94ff8983402838e7ec0723599a254155" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHelm</scope><name>IsArmorSet</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1adc846ef07700cd2582d2785b25214535" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHelm</scope><name>SetBonusText</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1ab22ca22d0e392865ec0f3fd4b60ee99c" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHelm</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1aadbeed0e926e01b2a79cb3341f93e114" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHelm</scope><name>SetStaticDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_armor_1_1_thomys_helm_1a6b820c21fee0ba5ee4d84e199d1b24d0" prot="public" virt="non-virtual"><scope>OmniMod::Items::Armor::ThomysHelm</scope><name>UpdateArmorSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

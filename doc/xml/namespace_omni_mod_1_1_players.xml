@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_players" kind="namespace" language="C#">
+    <compoundname>OmniMod::Players</compoundname>
+    <innerclass refid="class_omni_mod_1_1_players_1_1_damage_modification_player" prot="public">OmniMod::Players::DamageModificationPlayer</innerclass>
+    <innerclass refid="class_omni_mod_1_1_players_1_1_luck_player" prot="public">OmniMod::Players::LuckPlayer</innerclass>
+    <innernamespace refid="namespace_omni_mod_1_1_players_1_1_npc">OmniMod::Players::Npc</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Players/DamageModificationPlayer.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Items::Projectiles::OmniDrillProjectile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModProjectile</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a83ec0c172aba51e476b92a78bc38e0f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Projectiles.OmniDrillProjectile.SetStaticDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetStaticDefaults</name>
+        <qualifiedname>OmniMod.Items.Projectiles.OmniDrillProjectile.SetStaticDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Projectiles/OmniDrillProjectile.cs" line="12" column="30" bodyfile="Items/Projectiles/OmniDrillProjectile.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a93cf2e989d8062c0bc0248c1505e5610" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Projectiles.OmniDrillProjectile.SetDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>SetDefaults</name>
+        <qualifiedname>OmniMod.Items.Projectiles.OmniDrillProjectile.SetDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Projectiles/OmniDrillProjectile.cs" line="17" column="22" bodyfile="Items/Projectiles/OmniDrillProjectile.cs" bodystart="17" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a4a24b8ca66ec1821712166a24c5cc118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Items.Projectiles.OmniDrillProjectile.AI</definition>
+        <argsstring>()</argsstring>
+        <name>AI</name>
+        <qualifiedname>OmniMod.Items.Projectiles.OmniDrillProjectile.AI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items/Projectiles/OmniDrillProjectile.cs" line="31" column="22" bodyfile="Items/Projectiles/OmniDrillProjectile.cs" bodystart="31" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModProjectile</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Projectiles.OmniDrillProjectile</label>
+        <link refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModProjectile</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Items.Projectiles.OmniDrillProjectile</label>
+        <link refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Items/Projectiles/OmniDrillProjectile.cs" line="10" column="11" bodyfile="Items/Projectiles/OmniDrillProjectile.cs" bodystart="10" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a4a24b8ca66ec1821712166a24c5cc118" prot="public" virt="non-virtual"><scope>OmniMod::Items::Projectiles::OmniDrillProjectile</scope><name>AI</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a93cf2e989d8062c0bc0248c1505e5610" prot="public" virt="non-virtual"><scope>OmniMod::Items::Projectiles::OmniDrillProjectile</scope><name>SetDefaults</name></member>
+      <member refid="class_omni_mod_1_1_items_1_1_projectiles_1_1_omni_drill_projectile_1a83ec0c172aba51e476b92a78bc38e0f0" prot="public" virt="non-virtual"><scope>OmniMod::Items::Projectiles::OmniDrillProjectile</scope><name>SetStaticDefaults</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

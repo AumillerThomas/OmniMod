@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_items_1_1_dusts" kind="namespace" language="C#">
+    <compoundname>OmniMod::Items::Dusts</compoundname>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_dusts_1_1_bubble" prot="public">OmniMod::Items::Dusts::Bubble</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_dusts_1_1_sparkle" prot="public">OmniMod::Items::Dusts::Sparkle</innerclass>
+    <innerclass refid="class_omni_mod_1_1_items_1_1_dusts_1_1_star_one" prot="public">OmniMod::Items::Dusts::StarOne</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Dusts/Bubble.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

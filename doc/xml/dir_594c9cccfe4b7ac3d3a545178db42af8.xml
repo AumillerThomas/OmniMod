@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_594c9cccfe4b7ac3d3a545178db42af8" kind="dir">
+    <compoundname>Items/Armor</compoundname>
+    <innerfile refid="_thomys_brust_8cs">ThomysBrust.cs</innerfile>
+    <innerfile refid="_thomys_helm_8cs">ThomysHelm.cs</innerfile>
+    <innerfile refid="_thomys_hose_8cs">ThomysHose.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Armor/"/>
+  </compounddef>
+</doxygen>

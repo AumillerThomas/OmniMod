@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="dir_660410a77e1c21c3c2c76215f137d33b" kind="dir">
+    <compoundname>Items/Dusts</compoundname>
+    <innerfile refid="_bubble_8cs">Bubble.cs</innerfile>
+    <innerfile refid="_sparkle_8cs">Sparkle.cs</innerfile>
+    <innerfile refid="_star_one_8cs">StarOne.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Dusts/"/>
+  </compounddef>
+</doxygen>

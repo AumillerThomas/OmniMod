@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_players_1_1_damage_modification_player" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Players::DamageModificationPlayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModPlayer</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a23751d756a220c2aa5a87081367f483b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OmniMod.Players.DamageModificationPlayer.AdditiveCritDamageBonus</definition>
+        <argsstring></argsstring>
+        <name>AdditiveCritDamageBonus</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.AdditiveCritDamageBonus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="18" column="22" bodyfile="Players/DamageModificationPlayer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a636102d153a5375811d2ae4fb6c1aeda" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OmniMod.Players.DamageModificationPlayer.exampleDodge</definition>
+        <argsstring></argsstring>
+        <name>exampleDodge</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.exampleDodge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="22" column="13" bodyfile="Players/DamageModificationPlayer.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1ac29a272356d05b07c2233250bd0f9d10" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OmniMod.Players.DamageModificationPlayer.exampleDodgeCooldown</definition>
+        <argsstring></argsstring>
+        <name>exampleDodgeCooldown</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.exampleDodgeCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="24" column="12" bodyfile="Players/DamageModificationPlayer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a11725defdabca0d2483a9e15742500ee" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OmniMod.Players.DamageModificationPlayer.exampleDodgeVisualCounter</definition>
+        <argsstring></argsstring>
+        <name>exampleDodgeVisualCounter</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.exampleDodgeVisualCounter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="26" column="12" bodyfile="Players/DamageModificationPlayer.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a49760e4467bbd5e5ae9d691f206c4c8c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OmniMod.Players.DamageModificationPlayer.hasAbsorbTeamDamageEffect</definition>
+        <argsstring></argsstring>
+        <name>hasAbsorbTeamDamageEffect</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.hasAbsorbTeamDamageEffect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="29" column="13" bodyfile="Players/DamageModificationPlayer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a485f6392dfc91907c9fb457f1f8cd154" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OmniMod.Players.DamageModificationPlayer.defendedByAbsorbTeamDamageEffect</definition>
+        <argsstring></argsstring>
+        <name>defendedByAbsorbTeamDamageEffect</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.defendedByAbsorbTeamDamageEffect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="31" column="13" bodyfile="Players/DamageModificationPlayer.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a47e89e338176192eb8cfcb5b8d938849" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OmniMod.Players.DamageModificationPlayer.exampleDefenseDebuff</definition>
+        <argsstring></argsstring>
+        <name>exampleDefenseDebuff</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.exampleDefenseDebuff</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="33" column="13" bodyfile="Players/DamageModificationPlayer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1acc52e04bf5c45dd656d3b3efe98f0c6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Players.DamageModificationPlayer.PreUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>PreUpdate</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.PreUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="35" column="22" bodyfile="Players/DamageModificationPlayer.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a5b2b4ea5ef1817ffa2896e302b4a1bff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Players.DamageModificationPlayer.ResetEffects</definition>
+        <argsstring>()</argsstring>
+        <name>ResetEffects</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.ResetEffects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="42" column="22" bodyfile="Players/DamageModificationPlayer.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6449cdf434c2bcd09aca3b40e36c4175" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Players.DamageModificationPlayer.ModifyHitNPC</definition>
+        <argsstring>(NPC target, ref NPC.HitModifiers modifiers)</argsstring>
+        <name>ModifyHitNPC</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.ModifyHitNPC</qualifiedname>
+        <param>
+          <type>NPC</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>ref NPC.HitModifiers</type>
+          <declname>modifiers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="53" column="22" bodyfile="Players/DamageModificationPlayer.cs" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6882af1f53e9f8a12a32d6a78c86ef67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Players.DamageModificationPlayer.DrawEffects</definition>
+        <argsstring>(PlayerDrawSet drawInfo, ref float r, ref float g, ref float b, ref float a, ref bool fullBright)</argsstring>
+        <name>DrawEffects</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.DrawEffects</qualifiedname>
+        <param>
+          <type>PlayerDrawSet</type>
+          <declname>drawInfo</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>fullBright</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="70" column="22" bodyfile="Players/DamageModificationPlayer.cs" bodystart="70" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a465b264a01c890782a0cef15bf20d59c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool OmniMod.Players.DamageModificationPlayer.ConsumableDodge</definition>
+        <argsstring>(Player.HurtInfo info)</argsstring>
+        <name>ConsumableDodge</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.ConsumableDodge</qualifiedname>
+        <param>
+          <type>Player.HurtInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="83" column="22" bodyfile="Players/DamageModificationPlayer.cs" bodystart="83" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1af9fdafc4c05439fbed39dda008e1ff38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OmniMod.Players.DamageModificationPlayer.ExampleDodgeEffects</definition>
+        <argsstring>()</argsstring>
+        <name>ExampleDodgeEffects</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.ExampleDodgeEffects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="93" column="13" bodyfile="Players/DamageModificationPlayer.cs" bodystart="93" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a79dec7322601fcfe292d85992f4efbec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Players.DamageModificationPlayer.OnHurt</definition>
+        <argsstring>(Player.HurtInfo info)</argsstring>
+        <name>OnHurt</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.OnHurt</qualifiedname>
+        <param>
+          <type>Player.HurtInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="146" column="22" bodyfile="Players/DamageModificationPlayer.cs" bodystart="146" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1ad4ab4c51696ce7659d2d772d405422fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void OmniMod.Players.DamageModificationPlayer.HandleExampleDodgeMessage</definition>
+        <argsstring>(BinaryReader reader, int whoAmI)</argsstring>
+        <name>HandleExampleDodgeMessage</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.HandleExampleDodgeMessage</qualifiedname>
+        <param>
+          <type>BinaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>whoAmI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="118" column="20" bodyfile="Players/DamageModificationPlayer.cs" bodystart="118" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6b31bc4fbe1dd69807e9009a0a24f840" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool OmniMod.Players.DamageModificationPlayer.TeammateCanAbsorbDamage</definition>
+        <argsstring>()</argsstring>
+        <name>TeammateCanAbsorbDamage</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.TeammateCanAbsorbDamage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="164" column="14" bodyfile="Players/DamageModificationPlayer.cs" bodystart="164" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1a2e942d5809d2c82c8b98bf382d01c419" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool OmniMod.Players.DamageModificationPlayer.IsAbleToAbsorbDamageForTeammate</definition>
+        <argsstring>(Player player, int team)</argsstring>
+        <name>IsAbleToAbsorbDamageForTeammate</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.IsAbleToAbsorbDamageForTeammate</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>team</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="174" column="21" bodyfile="Players/DamageModificationPlayer.cs" bodystart="174" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_omni_mod_1_1_players_1_1_damage_modification_player_1ad1d65c5d608c9572af13651acc107b72" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool OmniMod.Players.DamageModificationPlayer.IsClosestShieldWearerInRange</definition>
+        <argsstring>(Player player, Vector2 target, int team)</argsstring>
+        <name>IsClosestShieldWearerInRange</name>
+        <qualifiedname>OmniMod.Players.DamageModificationPlayer.IsClosestShieldWearerInRange</qualifiedname>
+        <param>
+          <type>Player</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>team</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Players/DamageModificationPlayer.cs" line="184" column="21" bodyfile="Players/DamageModificationPlayer.cs" bodystart="184" bodyend="205"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ModPlayer</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Players.DamageModificationPlayer</label>
+        <link refid="class_omni_mod_1_1_players_1_1_damage_modification_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ModPlayer</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Players.DamageModificationPlayer</label>
+        <link refid="class_omni_mod_1_1_players_1_1_damage_modification_player"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Players/DamageModificationPlayer.cs" line="16" column="11" bodyfile="Players/DamageModificationPlayer.cs" bodystart="16" bodyend="208"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a23751d756a220c2aa5a87081367f483b" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>AdditiveCritDamageBonus</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a465b264a01c890782a0cef15bf20d59c" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>ConsumableDodge</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a485f6392dfc91907c9fb457f1f8cd154" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>defendedByAbsorbTeamDamageEffect</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6882af1f53e9f8a12a32d6a78c86ef67" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>DrawEffects</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a47e89e338176192eb8cfcb5b8d938849" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>exampleDefenseDebuff</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a636102d153a5375811d2ae4fb6c1aeda" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>exampleDodge</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1ac29a272356d05b07c2233250bd0f9d10" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>exampleDodgeCooldown</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1af9fdafc4c05439fbed39dda008e1ff38" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>ExampleDodgeEffects</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a11725defdabca0d2483a9e15742500ee" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>exampleDodgeVisualCounter</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1ad4ab4c51696ce7659d2d772d405422fe" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>HandleExampleDodgeMessage</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a49760e4467bbd5e5ae9d691f206c4c8c" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>hasAbsorbTeamDamageEffect</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a2e942d5809d2c82c8b98bf382d01c419" prot="private" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>IsAbleToAbsorbDamageForTeammate</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1ad1d65c5d608c9572af13651acc107b72" prot="private" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>IsClosestShieldWearerInRange</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6449cdf434c2bcd09aca3b40e36c4175" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>ModifyHitNPC</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a79dec7322601fcfe292d85992f4efbec" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>OnHurt</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1acc52e04bf5c45dd656d3b3efe98f0c6d" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>PreUpdate</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a5b2b4ea5ef1817ffa2896e302b4a1bff" prot="public" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>ResetEffects</name></member>
+      <member refid="class_omni_mod_1_1_players_1_1_damage_modification_player_1a6b31bc4fbe1dd69807e9009a0a24f840" prot="private" virt="non-virtual"><scope>OmniMod::Players::DamageModificationPlayer</scope><name>TeammateCanAbsorbDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

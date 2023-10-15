@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_tiles_1_1_omni_ore_pass" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::Tiles::OmniOrePass</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GenPass</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_tiles_1_1_omni_ore_pass_1a4c66ed32664f987ee91cb5ad66599938" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OmniMod.Tiles.OmniOrePass.OmniOrePass</definition>
+        <argsstring>(string name, float loadWeight)</argsstring>
+        <name>OmniOrePass</name>
+        <qualifiedname>OmniMod.Tiles.OmniOrePass.OmniOrePass</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loadWeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniOre.cs" line="76" column="8" bodyfile="Tiles/OmniOre.cs" bodystart="76" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_omni_mod_1_1_tiles_1_1_omni_ore_pass_1ab307e95f1777a996b2cbcefb29e6ed92" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void OmniMod.Tiles.OmniOrePass.ApplyPass</definition>
+        <argsstring>(GenerationProgress progress, GameConfiguration configuration)</argsstring>
+        <name>ApplyPass</name>
+        <qualifiedname>OmniMod.Tiles.OmniOrePass.ApplyPass</qualifiedname>
+        <param>
+          <type>GenerationProgress</type>
+          <declname>progress</declname>
+        </param>
+        <param>
+          <type>GameConfiguration</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tiles/OmniOre.cs" line="79" column="25" bodyfile="Tiles/OmniOre.cs" bodystart="79" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>GenPass</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Tiles.OmniOrePass</label>
+        <link refid="class_omni_mod_1_1_tiles_1_1_omni_ore_pass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>GenPass</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.Tiles.OmniOrePass</label>
+        <link refid="class_omni_mod_1_1_tiles_1_1_omni_ore_pass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tiles/OmniOre.cs" line="74" column="7" bodyfile="Tiles/OmniOre.cs" bodystart="75" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_pass_1ab307e95f1777a996b2cbcefb29e6ed92" prot="protected" virt="non-virtual"><scope>OmniMod::Tiles::OmniOrePass</scope><name>ApplyPass</name></member>
+      <member refid="class_omni_mod_1_1_tiles_1_1_omni_ore_pass_1a4c66ed32664f987ee91cb5ad66599938" prot="public" virt="non-virtual"><scope>OmniMod::Tiles::OmniOrePass</scope><name>OmniOrePass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

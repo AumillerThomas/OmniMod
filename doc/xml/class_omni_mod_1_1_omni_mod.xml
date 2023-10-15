@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="class_omni_mod_1_1_omni_mod" kind="class" language="C#" prot="public">
+    <compoundname>OmniMod::OmniMod</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Mod</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Mod</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.OmniMod</label>
+        <link refid="class_omni_mod_1_1_omni_mod"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Mod</label>
+      </node>
+      <node id="1">
+        <label>OmniMod.OmniMod</label>
+        <link refid="class_omni_mod_1_1_omni_mod"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="OmniMod.cs" line="5" column="7" bodyfile="OmniMod.cs" bodystart="6" bodyend="7"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

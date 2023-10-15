@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod_1_1_items" kind="namespace" language="C#">
+    <compoundname>OmniMod::Items</compoundname>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_armor">OmniMod::Items::Armor</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_consumable">OmniMod::Items::Consumable</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_dusts">OmniMod::Items::Dusts</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_placeable">OmniMod::Items::Placeable</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_projectiles">OmniMod::Items::Projectiles</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_tools">OmniMod::Items::Tools</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items_1_1_wapons">OmniMod::Items::Wapons</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Items/Armor/ThomysBrust.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

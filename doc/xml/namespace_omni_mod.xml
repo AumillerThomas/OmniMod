@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="de">
+  <compounddef id="namespace_omni_mod" kind="namespace" language="C#">
+    <compoundname>OmniMod</compoundname>
+    <innerclass refid="class_omni_mod_1_1_omni_mod" prot="public">OmniMod::OmniMod</innerclass>
+    <innernamespace refid="namespace_omni_mod_1_1_bioms">OmniMod::Bioms</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_buffs">OmniMod::Buffs</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_items">OmniMod::Items</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_players">OmniMod::Players</innernamespace>
+    <innernamespace refid="namespace_omni_mod_1_1_tiles">OmniMod::Tiles</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Bioms/WaterfallStyle.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>
