@@ -1,5 +1,14 @@
 {
   "version": 2,
+  "dgSpecHash": "z5fiBzJxCphhbPaPDxZjf7fT67NRnRQiNnX1J3sHxx/SbjlvsPGNqbBuL0mvMWXqWSHBHLr9isvV3CJnf3MsoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aumil\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}{
+  "version": 2,
   "dgSpecHash": "4AnKMTQFgPZX2wt7BSyoaYWBn/Mc+loA6kGSu8P62Bs5OsoXX5t2wi+gafCX1ICbOHAcC8GA9NH659dgK2VGBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aumil\\OneDrive\\Dokumente\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj",

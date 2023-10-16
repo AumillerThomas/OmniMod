@@ -1,3 +1,4 @@
+using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -20,8 +21,10 @@ namespace OmniMod.Items.Placeable{
 			Item.width = 12;
 			Item.height = 12;
 			Item.value = 3000;
+			
 		}
 
+     
     }
 
 }
