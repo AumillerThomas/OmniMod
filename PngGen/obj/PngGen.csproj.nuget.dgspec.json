@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj": {}
+    "c:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\PngGen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj": {
+    "c:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\PngGen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj",
-        "projectName": "OmniMod",
-        "projectPath": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj",
+        "projectUniqueName": "c:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\PngGen.csproj",
+        "projectName": "PngGen",
+        "projectPath": "c:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\PngGen.csproj",
         "packagesPath": "C:\\Users\\Aumil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\obj\\",
+        "outputPath": "c:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aumil\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,10 +41,6 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[7.0.0, )"
-            },
-            "tModLoader.CodeAssist": {
-              "target": "Package",
-              "version": "[0.1.*, )"
             }
           },
           "imports": [

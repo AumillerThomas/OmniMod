@@ -48,9 +48,6 @@
             "rid": "win"
           }
         }
-      },
-      "tModLoader.CodeAssist/0.1.5": {
-        "type": "package"
       }
     }
   },
@@ -122,28 +119,11 @@
         "system.drawing.common.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "tModLoader.CodeAssist/0.1.5": {
-      "sha512": "Sg/jKEg/z5eN+Cdi3/9CU4JfJwvXHVH+UDJf4Lipo26uTa+guLLJXH1XDJNPShTFwKK8jMUYbthINP4QhsgHSA==",
-      "type": "package",
-      "path": "tmodloader.codeassist/0.1.5",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "NugetIcon.png",
-        "analyzers/dotnet/cs/tModLoader.CodeAssist.dll",
-        "tmodloader.codeassist.0.1.5.nupkg.sha512",
-        "tmodloader.codeassist.nuspec",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "System.Drawing.Common >= 7.0.0",
-      "tModLoader.CodeAssist >= 0.1.*"
+      "System.Drawing.Common >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -152,11 +132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj",
-      "projectName": "OmniMod",
-      "projectPath": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\OmniMod.csproj",
+      "projectUniqueName": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\PngGen.csproj",
+      "projectName": "PngGen",
+      "projectPath": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\PngGen.csproj",
       "packagesPath": "C:\\Users\\Aumil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\obj\\",
+      "outputPath": "C:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aumil\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -186,10 +166,6 @@
           "System.Drawing.Common": {
             "target": "Package",
             "version": "[7.0.0, )"
-          },
-          "tModLoader.CodeAssist": {
-            "target": "Package",
-            "version": "[0.1.*, )"
           }
         },
         "imports": [

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QO5CpUVpW3j9Ik9L++nfAPbcZHsThNXRGq+kTMcjP9ffX46adn6ZEp3KM2wcjBEXScbdt8iHaQGfnWEU4i6L3g==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Aumil\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\OmniMod\\PngGen\\PngGen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aumil\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Aumil\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
