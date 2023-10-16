@@ -36,7 +36,7 @@ namespace OmniMod.Tiles{
 
 		// Example of how to enable the Biome Sight buff to highlight this tile. Biome Sight is technically intended to show "infected" tiles, so this example is purely for demonstration purposes.
 		public override bool IsTileBiomeSightable(int i, int j, ref Color sightColor) {
-			sightColor = Color.Blue;
+			sightColor = Color.OrangeRed;
 			return true;
 		}
 	}
@@ -66,7 +66,7 @@ namespace OmniMod.Tiles{
 			if (ShiniesIndex != -1) {
 				// Next, we insert our pass directly after the original "Shinies" pass.
 				// ExampleOrePass is a class seen bellow
-				tasks.Insert(ShiniesIndex + 1, new OmniOrePass("Example Mod Ores", 237.4298f));
+				tasks.Insert(ShiniesIndex + 1, new OmniOrePass("OmniMod Ores", 237.4298f));
 			}
 		}
 	}
